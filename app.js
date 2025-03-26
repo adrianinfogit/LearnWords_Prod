@@ -13,7 +13,8 @@ function loadCards() {
       deck = filterHistory(data);
       totalCards = deck.length;
       shuffle(deck);
-      showNextCard();
+      document.getElementById("user-answer").blur();
+  showNextCard();
       updateStats();
     })
     .catch(error => {
@@ -109,6 +110,7 @@ function markAsHard() {
   feedbackElement.style.borderRadius = "8px";
 
   updateStats();
+  document.getElementById("user-answer").blur();
   showNextCard();
 }
 
