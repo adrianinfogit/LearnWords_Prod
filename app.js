@@ -214,3 +214,35 @@ function filterHistory(cards) {
   const history = JSON.parse(localStorage.getItem("shownHistory")) || [];
   return cards.filter(card => !history.includes(card.original));
 }
+
+
+let voices = [];
+
+function loadVoices() {
+  voices = window.speechSynthesis.getVoices();
+  if (!voices.length) {
+    window.speechSynthesis.addEventListener('voiceschanged', () => {
+      voices = window.speechSynthesis.getVoices();
+    });
+  }
+}
+loadVoices();
+
+document.getElementById("pronounce-btn").addEventListener("click", () => {
+  const textToSpeak = document.getElementById("translated-word").textContent;
+  const selectedLang = document.getElementById("language-select").value;
+
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(textToSpeak);
+    utterance.lang = selectedLang;
+
+    const matchedVoice = voices.find(v => v.lang === selectedLang);
+    if (matchedVoice) {
+      utterance.voice = matchedVoice;
+    }
+
+    speechSynthesis.speak(utterance);
+  } else {
+    alert("Sorry, your browser does not support speech synthesis.");
+  }
+});
