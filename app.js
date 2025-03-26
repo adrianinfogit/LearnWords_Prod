@@ -109,6 +109,7 @@ function markAsHard() {
   feedbackElement.style.borderRadius = "8px";
 
   updateStats();
+  showNextCard();
 }
 
 function updateProgress() {
