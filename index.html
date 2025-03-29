@@ -1,47 +1,693 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Language Flashcards</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* --- General Layout & Body --- */
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        #app-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        /* --- Error & Status Messages --- */
+        #loading-error {
+             color: red;
+             font-weight: bold;
+             margin-bottom: 15px;
+        }
+
+        #status-message {
+            margin-top: 20px;
+            font-style: italic;
+            color: #666;
+            min-height: 1.2em; /* Ensure space for messages */
+        }
+
+        #session-complete {
+            font-size: 1.2em;
+            color: #28a745;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* --- Controls --- */
+        #controls {
+            margin-bottom: 20px;
+            display: flex; /* Use flexbox for alignment */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            justify-content: center; /* Center items */
+            align-items: center; /* Vertically align items */
+            gap: 15px; /* Space between controls */
+        }
+
+        /* Style for the new pronunciation controls container */
+        .pronunciation-controls {
+            display: flex;
+            flex-direction: row; /* Ensure horizontal layout */
+            align-items: center;
+            gap: 8px; /* Space between elements */
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            justify-content: center; /* Center the controls */
+        }
+
+        /* Style the dropdown */
+        #language-select {
+            padding: 5px 8px;
+            font-size: 0.9em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: white;
+            cursor: pointer;
+        }
+        #language-select:disabled {
+             background-color: #e9ecef;
+             cursor: not-allowed;
+        }
+
+
+        /* Style the pronounce button */
+        #pronounce-btn {
+            padding: 5px 10px;
+            font-size: 1.2em;
+            line-height: 1;
+            background-color: #17a2b8;
+            min-width: 40px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        #pronounce-btn:hover:not(:disabled) {
+             background-color: #138496;
+             opacity: 1;
+        }
+        #pronounce-btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        /* Style for the error indicator */
+        #pronounce-error {
+            font-size: 1.2em;
+            color: #dc3545; /* Red color for error */
+            font-weight: bold;
+            cursor: help; /* Indicate it's informative */
+            margin-left: 2px; /* Tiny space from button */
+        }
+
+
+        /* --- Card Area --- */
+        #card-area {
+            margin-top: 15px;
+        }
+
+        #card-display {
+            min-height: 150px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #foreign-word {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #0056b3;
+            word-break: break-word;
+        }
+
+        /* --- Answer Input & Feedback --- */
+        #answer-input-area {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+         #answer-input {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 80%;
+            box-sizing: border-box;
+         }
+         #answer-input:disabled {
+            background-color: #e9ecef;
+            opacity: 0.8;
+            cursor: not-allowed;
+         }
+
+
+        #feedback {
+            min-height: 1.2em;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .correct { color: #28a745; }
+        .incorrect { color: #dc3545; }
+
+        #translation {
+            font-size: 1.5em;
+            color: #28a745;
+            margin-top: 10px;
+            display: none; /* Hidden initially */
+            word-break: break-word;
+        }
+
+        /* --- Button Styles --- */
+        .button-container {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            color: white;
+            background-color: #007bff;
+        }
+        button:hover:not(:disabled) {
+            opacity: 0.9;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        /* Specific Button Styles */
+        #assessment-buttons button {
+             border-radius: 20px;
+             color: white;
+        }
+        #again-btn { background-color: #dc3545; }
+        #again-btn:hover:not(:disabled) { background-color: #c82333; opacity: 1; }
+        #hard-btn { background-color: #ffc107; color: #333; }
+        #hard-btn:hover:not(:disabled) { background-color: #e0a800; opacity: 1; }
+        #easy-btn { background-color: #17a2b8; }
+        #easy-btn:hover:not(:disabled) { background-color: #138496; opacity: 1; }
+
+
+        #check-answer-btn {
+            background-color: #007bff; color: white; padding: 5px 10px;
+            font-size: 0.8em; border-radius: 5px; margin-top: 5px;
+        }
+        #check-answer-btn:hover:not(:disabled) { background-color: #0056b3; opacity: 1; }
+
+        #new-session-btn {
+            background-color: #6c757d; color: white; padding: 5px 10px;
+            font-size: 0.8em; border-radius: 5px;
+        }
+        #new-session-btn:hover:not(:disabled) { background-color: #5a6268; opacity: 1; }
+
+        #show-answer-btn {
+            background-color: #6c757d; color: white; padding: 10px 20px;
+            font-size: 1em; border-radius: 5px;
+        }
+        #show-answer-btn:hover:not(:disabled) { background-color: #5a6268; opacity: 1; }
+
+        /* --- Utility Classes --- */
+        .hidden { display: none !important; }
+        .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+        .button-with-label { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+        .time-label { font-size: 0.8em; color: #666; margin-bottom: 0; line-height: 1; }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Removed Title -->
-    <div class="progress-container">
-      <div class="progress-bar" id="progress-bar"></div>
+
+    <div id="app-container">
+        <div id="loading-error" class="hidden"></div>
+
+        <div id="controls" class="hidden">
+             <button id="new-session-btn">Start New Session</button>
+             <div class="pronunciation-controls">
+                 <label for="language-select" class="visually-hidden">Pronunciation Language:</label>
+                 <select id="language-select" disabled> <!-- Start disabled -->
+                     <option value="fr">French</option>
+                     <option value="en">English</option>
+                 </select>
+                 <button id="pronounce-btn" title="Pronounce Translated Word" disabled>🔊</button> <!-- Start disabled -->
+                 <span id="pronounce-error" class="hidden" title="Speech synthesis unavailable or error occurred">❓</span> <!-- Start hidden -->
+             </div>
+        </div>
+
+        <div id="card-area" class="hidden">
+            <div id="card-display">
+                <div id="foreign-word"></div>
+                <div id="translation"></div>
+                <div id="answer-input-area">
+                     <input type="text" id="answer-input" placeholder="Type the translation...">
+                     <div class="button-container" style="margin-top: 0;">
+                        <button id="check-answer-btn">Check Typing</button>
+                     </div>
+                    <div style="margin-top: 10px;"></div>
+                     <button id="show-answer-btn">Show Answer</button>
+                     <div id="feedback"></div>
+                </div>
+            </div>
+
+            <div id="assessment-buttons" class="button-container hidden">
+                <div class="button-with-label">
+                    <button id="again-btn">Again</button>
+                </div>
+                <div class="button-with-label">
+                    <button id="hard-btn">Hard</button>
+                </div>
+                <div class="button-with-label">
+                    <button id="easy-btn">Easy</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="status-message">Loading words...</div>
+        <div id="session-complete" class="hidden">🎉 Session Complete! Use "Start New Session" to go again. 🎉</div>
     </div>
 
-    <div id="flashcard">
-      <p id="original-word">Loading...</p>
-      <p id="translated-word" style="display: none;"></p>
+    <script>
+        (function() { // IIFE
+            "use strict";
 
-      <div class="audio-controls">
-        <select id="language-select">
-          <option value="fr-FR">French</option>
-          <option value="en-US">English</option>
-        </select>
-        <button id="pronounce-btn"><i class="fas fa-volume-up"></i> Pronounce</button>
-      </div>
+            // --- Constants ---
+            const WORDS_FILE_PATH = 'words.json';
+            const LOCAL_STORAGE_KEYS = {
+                SHUFFLED_INDICES: 'flashcard_shuffledIndices',
+                CURRENT_INDEX: 'flashcard_currentIndex',
+                CARDS_LENGTH: 'flashcard_cardsLength'
+            };
+            const PRONUNCIATION_LANG_KEY = 'flashcard_pronunciationLang';
+            const AGAIN_OFFSET = 3; // Repeat after 3 cards
+            const HARD_OFFSET = 7;  // Repeat after 7 cards
+ 
 
-      <input type="text" id="user-answer" placeholder="Type translation here" autocomplete="off">
-      <div class="buttons">
-        <button id="submit-btn"><i class="fas fa-check"></i> Submit</button>
-        <button id="show-btn"><i class="fas fa-eye"></i> Show Translation</button>
-        <button id="hard-btn"><i class="fas fa-bookmark"></i> Mark as Hard</button>
-        <button id="easy-btn"><i class="fas fa-thumbs-up"></i> Mark as Easy</button>
-        <button id="next-btn" style="display: inline;"><i class="fas fa-arrow-right"></i> Next</button>
-      </div>
-      <p id="feedback"></p>
-      <div class="stats">
-        <span id="remaining-count">Cards remaining: 0</span>
-        <span id="hard-count">Hard cards: 0</span>
-      </div>
-    <button id="reset-btn" style="margin-top: 10px;"><i class="fas fa-undo"></i> Reset</button>
-</div>
-  </div>
-  <script src="app.js"></script>
+            // --- DOM Elements ---
+            const loadingErrorEl = document.getElementById('loading-error');
+            const controlsEl = document.getElementById('controls');
+            const newSessionBtn = document.getElementById('new-session-btn');
+            const cardArea = document.getElementById('card-area');
+            const foreignWordEl = document.getElementById('foreign-word');
+            const answerInputArea = document.getElementById('answer-input-area');
+            const answerInput = document.getElementById('answer-input');
+            const feedbackEl = document.getElementById('feedback');
+            const translationEl = document.getElementById('translation');
+            const checkAnswerBtn = document.getElementById('check-answer-btn');
+            const showAnswerBtn = document.getElementById('show-answer-btn');
+            const assessmentButtons = document.getElementById('assessment-buttons');
+            const againBtn = document.getElementById('again-btn');
+            const hardBtn = document.getElementById('hard-btn');
+            const easyBtn = document.getElementById('easy-btn');
+            const statusMessage = document.getElementById('status-message');
+            const sessionCompleteMessage = document.getElementById('session-complete');
+            const languageSelect = document.getElementById('language-select');
+            const pronounceBtn = document.getElementById('pronounce-btn');
+            const pronounceError = document.getElementById('pronounce-error');
+
+            // --- State Variables ---
+            let cards = [];
+            let shuffledIndices = [];
+            let currentCardIndex = 0;
+            let currentCardData = null;
+            let selectedLang = 'fr';
+            let synth = null; // Initialize later
+            let voices = [];
+            let isSpeechApiSupported = false; // Flag for basic API support
+            let haveAttemptedVoiceLoad = false; // Flag to avoid repeated getVoices calls
+
+            // --- Speech Synthesis Functions (New Approach) ---
+
+            /** Tries to populate the `voices` array. Called once initially and by onvoiceschanged. */
+            function tryPopulateVoices() {
+                if (!isSpeechApiSupported || !synth || haveAttemptedVoiceLoad) return;
+
+                console.log("Attempting to populate voices...");
+                try {
+                    const availableVoices = synth.getVoices();
+                    if (availableVoices.length > 0) {
+                        voices = availableVoices;
+                        haveAttemptedVoiceLoad = true; // Mark success/attempt
+                        console.log(`Successfully populated ${voices.length} voices.`);
+                        // Optional: Could update button state here if needed, but not critical for new logic
+                    } else {
+                        console.log("getVoices() returned empty list initially.");
+                        // Don't set haveAttemptedVoiceLoad = true yet, maybe onvoiceschanged will work
+                    }
+                } catch (error) {
+                    console.error("Error calling synth.getVoices():", error);
+                    haveAttemptedVoiceLoad = true; // Mark attempt even on error to prevent loops
+                }
+            }
+
+            /** Finds a suitable voice IF voices have been loaded. */
+            function findVoiceIfLoaded(langCode) {
+                if (voices.length === 0) return null; // Don't search if no voices loaded
+
+                const langLower = langCode.toLowerCase();
+                const langPrefix = langLower + '-';
+                let voice = voices.find(v => v.lang.toLowerCase() === langLower) ||
+                            voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
+                if (voice) return voice;
+                if (langLower.includes('-')) {
+                    const baseLang = langLower.split('-')[0];
+                    voice = voices.find(v => v.lang.toLowerCase() === baseLang) ||
+                            voices.find(v => v.lang.toLowerCase().startsWith(baseLang + '-'));
+                }
+                return voice || null; // Return found voice or null
+            }
+
+            /** Checks API support and updates button/select enabled state. */
+            function updatePronunciationControlsState() {
+                const shouldBeEnabled = isSpeechApiSupported &&
+                                      currentCardData !== null &&
+                                      translationEl.style.display === 'block'; // Check if translation is visible
+
+                pronounceBtn.disabled = !shouldBeEnabled;
+                // Error icon only shows if API is entirely missing or a speak error occurs
+                if (!isSpeechApiSupported) {
+                     pronounceError.classList.remove('hidden');
+                     pronounceError.title = "Speech synthesis not supported by this browser.";
+                } else {
+                    // Hide error unless a specific speak error occurs later
+                     // pronounceError.classList.add('hidden'); // Done in pronounceWord start
+                }
+            }
+
+            /** Speaks the given text. Relies on `utterance.lang`, uses `utterance.voice` if available. */
+            function pronounceWord(text) {
+                if (!isSpeechApiSupported || !synth || !text || pronounceBtn.disabled) return;
+
+                if (synth.speaking) synth.cancel(); // Stop previous speech
+
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = selectedLang; // ALWAYS set the language code
+
+                // Conditionally set the voice only if voices have been loaded
+                const specificVoice = findVoiceIfLoaded(selectedLang);
+                if (specificVoice) {
+                    utterance.voice = specificVoice;
+                    console.log(`Using specific voice: ${specificVoice.name} (${specificVoice.lang})`);
+                } else {
+                    console.log(`Using browser default voice for lang="${selectedLang}".`);
+                }
+
+                utterance.onstart = () => {
+                    pronounceBtn.disabled = true; // Disable while speaking
+                    pronounceError.classList.add('hidden'); // Hide error on new attempt
+                }
+                utterance.onend = () => {
+                    updatePronunciationControlsState(); // Re-evaluate button state on end
+                }
+                utterance.onerror = (event) => {
+                    console.error('SpeechSynthesisUtterance.onerror:', event);
+                    pronounceError.classList.remove('hidden'); // Show error on failure
+                    pronounceError.title = `Speech error: ${event.error}`;
+                    updatePronunciationControlsState(); // Re-evaluate button state on error
+                };
+
+                try {
+                    pronounceError.classList.add('hidden'); // Hide error before trying
+                    synth.speak(utterance);
+                } catch (error) {
+                    console.error("Error calling synth.speak:", error);
+                    pronounceError.classList.remove('hidden'); // Show error on failure
+                    pronounceError.title = `Error starting speech: ${error.message}`;
+                    updatePronunciationControlsState();
+                }
+            }
+
+            /** Initializes speech synthesis API check and basic setup. */
+            function initializeSpeechSynthesis() {
+                console.log("Initializing Speech Synthesis...");
+                if ('speechSynthesis' in window && window.speechSynthesis && 'SpeechSynthesisUtterance' in window) {
+                    isSpeechApiSupported = true;
+                    synth = window.speechSynthesis;
+                    languageSelect.disabled = false; // Enable dropdown
+                    console.log("Speech Synthesis API supported.");
+
+                    // Restore saved language
+                    const savedLang = localStorage.getItem(PRONUNCIATION_LANG_KEY);
+                    selectedLang = (savedLang === 'en' || savedLang === 'fr') ? savedLang : 'fr';
+                    languageSelect.value = selectedLang;
+
+                    // Set up listener for language change
+                    languageSelect.addEventListener('change', (event) => {
+                        selectedLang = event.target.value;
+                        localStorage.setItem(PRONUNCIATION_LANG_KEY, selectedLang);
+                        if (synth.speaking) synth.cancel();
+                        // No need to call checkVoiceAvailability here, button state depends on card visibility
+                    });
+
+                     // Set up listener for pronounce button click
+                    pronounceBtn.addEventListener('click', () => {
+                         if (currentCardData && currentCardData.translated) {
+                             pronounceWord(currentCardData.translated);
+                         }
+                    });
+
+                    // Set up listener for voices changing (best effort)
+                    if (synth.onvoiceschanged !== undefined) {
+                        synth.onvoiceschanged = () => {
+                            console.log("onvoiceschanged event fired.");
+                            // Reset flag to allow re-population if needed (e.g., voices added/removed)
+                            haveAttemptedVoiceLoad = false;
+                            tryPopulateVoices();
+                        };
+                    }
+
+                    // Try to populate voices *once* non-blockingly.
+                    // We don't *depend* on this succeeding for basic functionality.
+                    tryPopulateVoices();
+
+                } else {
+                    isSpeechApiSupported = false;
+                    console.warn("Speech Synthesis API not supported.");
+                    languageSelect.disabled = true;
+                    pronounceBtn.disabled = true;
+                    pronounceError.classList.remove('hidden'); // Show error permanently if unsupported
+                    pronounceError.title = "Speech synthesis not supported by this browser.";
+                }
+            }
+
+
+            // --- Core Flashcard Functions (Minimal changes needed) ---
+
+            function shuffleArray(array) { /* ... (no changes) ... */
+                for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; }
+            }
+            function saveProgress() { /* ... (no changes) ... */
+                try { const indexToSave = Math.min(currentCardIndex, shuffledIndices.length); localStorage.setItem(LOCAL_STORAGE_KEYS.SHUFFLED_INDICES, JSON.stringify(shuffledIndices)); localStorage.setItem(LOCAL_STORAGE_KEYS.CURRENT_INDEX, indexToSave.toString()); localStorage.setItem(LOCAL_STORAGE_KEYS.CARDS_LENGTH, cards.length.toString()); } catch (error) { console.error("Error saving progress:", error); statusMessage.textContent = "Warning: Could not save progress."; }
+            }
+            function loadProgress() { /* ... (no changes) ... */
+                try { const savedIndices = localStorage.getItem(LOCAL_STORAGE_KEYS.SHUFFLED_INDICES); const savedIndex = localStorage.getItem(LOCAL_STORAGE_KEYS.CURRENT_INDEX); const savedLength = localStorage.getItem(LOCAL_STORAGE_KEYS.CARDS_LENGTH); if (savedIndices && savedIndex && savedLength) { const parsedIndices = JSON.parse(savedIndices); const parsedIndex = parseInt(savedIndex, 10); const parsedLength = parseInt(savedLength, 10); if (Array.isArray(parsedIndices) && !isNaN(parsedIndex) && !isNaN(parsedLength) && parsedLength === cards.length && parsedIndex >= 0 && parsedIndex <= parsedIndices.length && parsedIndices.every(idx => typeof idx === 'number' && idx >= 0 && idx < cards.length)) { shuffledIndices = parsedIndices; currentCardIndex = parsedIndex; console.log(`Progress loaded. Resuming at index ${currentCardIndex}/${shuffledIndices.length}.`); return true; } else { console.warn("Saved progress invalid/mismatched. Clearing."); clearSavedProgress(); } } } catch (error) { console.error("Error loading/parsing progress:", error); clearSavedProgress(); } return false;
+            }
+            function clearSavedProgress() { /* ... (no changes) ... */
+                try { localStorage.removeItem(LOCAL_STORAGE_KEYS.SHUFFLED_INDICES); localStorage.removeItem(LOCAL_STORAGE_KEYS.CURRENT_INDEX); localStorage.removeItem(LOCAL_STORAGE_KEYS.CARDS_LENGTH); console.log("Saved session progress cleared."); } catch (error) { console.error("Error clearing progress:", error); }
+            }
+
+            function displayCard() {
+                // Reset UI
+                translationEl.style.display = 'none'; // Hide translation
+                assessmentButtons.classList.add('hidden');
+                checkAnswerBtn.style.display = 'inline-block';
+                checkAnswerBtn.disabled = false;
+                showAnswerBtn.style.display = 'inline-block';
+                answerInputArea.style.display = 'flex';
+                answerInput.value = '';
+                answerInput.disabled = false;
+                feedbackEl.textContent = '';
+                feedbackEl.className = 'feedback';
+                sessionCompleteMessage.classList.add('hidden');
+                checkAnswerBtn.parentElement.style.display = 'flex';
+
+                // --- Update Pronunciation State ---
+                updatePronunciationControlsState();
+
+                if (currentCardIndex >= shuffledIndices.length) {
+                    cardArea.classList.add('hidden');
+                    controlsEl.classList.remove('hidden');
+                    statusMessage.textContent = `Finished reviewing all scheduled cards.`;
+                    sessionCompleteMessage.classList.remove('hidden');
+                    currentCardData = null;
+                    updatePronunciationControlsState();
+                    saveProgress();
+                    return;
+                }
+
+                const actualIndex = shuffledIndices[currentCardIndex];
+                if (typeof actualIndex !== 'number' || actualIndex < 0 || actualIndex >= cards.length) {
+                    console.error('Invalid index in shuffledIndices:', actualIndex, 'at pos', currentCardIndex);
+                    statusMessage.textContent = `Error: Invalid card sequence. Recovering...`;
+                    shuffledIndices.splice(currentCardIndex, 1);
+                    saveProgress();
+                    displayCard();
+                    return;
+                }
+
+                currentCardData = cards[actualIndex];
+                if (!currentCardData || typeof currentCardData.original !== 'string' || typeof currentCardData.translated !== 'string') {
+                    console.error('Invalid card data:', currentCardData, 'at original index', actualIndex);
+                    statusMessage.textContent = `Error: Invalid card content. Skipping.`;
+                    currentCardIndex++;
+                    saveProgress();
+                    displayCard();
+                    return;
+                }
+
+                foreignWordEl.textContent = currentCardData.original;
+                translationEl.textContent = currentCardData.translated;
+                cardArea.classList.remove('hidden');
+                controlsEl.classList.remove('hidden');
+                statusMessage.textContent = `Card ${currentCardIndex + 1} of ${shuffledIndices.length} in queue.`;
+
+                // Removed focus on the typing field
+                // answerInput.focus();
+            }
+
+            function checkAnswer() {
+                if (!currentCardData) return;
+                // ... (UI updates for input, buttons, feedback) ...
+                const userAnswer = answerInput.value.trim().toLowerCase();
+                const correctAnswer = currentCardData.translated.trim().toLowerCase();
+                answerInput.disabled = true; checkAnswerBtn.style.display = 'none';
+                showAnswerBtn.style.display = 'none'; checkAnswerBtn.parentElement.style.display = 'none';
+                feedbackEl.textContent = userAnswer === correctAnswer ? "Correct!" : `Incorrect. Correct: ${currentCardData.translated}`;
+                feedbackEl.className = userAnswer === correctAnswer ? 'feedback correct' : 'feedback incorrect';
+
+                translationEl.style.display = 'block'; // Show translation
+                assessmentButtons.classList.remove('hidden'); assessmentButtons.style.display = 'flex';
+
+                // --- Update Pronunciation State ---
+                // Now that translation is visible, enable button if API is supported
+                updatePronunciationControlsState();
+                // ---
+            }
+
+            function showAnswer() {
+                if (!currentCardData) return;
+                 // ... (UI updates for input, buttons, feedback) ...
+                answerInput.disabled = true; checkAnswerBtn.style.display = 'none';
+                showAnswerBtn.style.display = 'none'; checkAnswerBtn.parentElement.style.display = 'none';
+                feedbackEl.textContent = `Correct: ${currentCardData.translated}`;
+                feedbackEl.className = 'feedback';
+
+                translationEl.style.display = 'block'; // Show translation
+                assessmentButtons.classList.remove('hidden'); assessmentButtons.style.display = 'flex';
+
+                // --- Update Pronunciation State ---
+                 // Now that translation is visible, enable button if API is supported
+                updatePronunciationControlsState();
+                // ---
+            }
+
+            function repeatCardLater(offset) { /* ... (no changes) ... */
+                if (currentCardIndex >= shuffledIndices.length || !currentCardData) { moveToNextCard(); return; } const idx = shuffledIndices[currentCardIndex]; let insIdx = Math.min(currentCardIndex + offset + 1, shuffledIndices.length); shuffledIndices.splice(insIdx, 0, idx); console.log(`Repeating card (orig idx ${idx}) at queue pos ${insIdx}. New len: ${shuffledIndices.length}`); currentCardIndex++; saveProgress(); displayCard();
+            }
+            function moveToNextCard() { /* ... (no changes) ... */
+                if (currentCardIndex < shuffledIndices.length) currentCardIndex++; saveProgress(); displayCard();
+            }
+
+            function startReviewSession(forceNew = false) {
+                if (cards.length === 0) { /* ... handle no cards ... */ statusMessage.textContent = "No cards loaded."; cardArea.classList.add('hidden'); controlsEl.classList.add('hidden'); return; }
+                controlsEl.classList.remove('hidden');
+                if (forceNew) clearSavedProgress();
+                const resumed = !forceNew && loadProgress();
+                if (!resumed) { currentCardIndex = 0; shuffledIndices = Array.from(cards.keys()); shuffleArray(shuffledIndices); console.log("Starting new session."); saveProgress(); }
+                sessionCompleteMessage.classList.add('hidden');
+                statusMessage.textContent = `Loaded ${cards.length} cards. ${resumed ? 'Resuming session.' : 'Starting new session.'}`;
+
+                // Initialize speech synth *once* per session start
+                // This happens AFTER cards are loaded and session state is known.
+                initializeSpeechSynthesis();
+
+                displayCard(); // Display first card
+            }
+
+            async function loadWords() {
+                statusMessage.textContent = `Loading words from ${WORDS_FILE_PATH}...`;
+                loadingErrorEl.classList.add('hidden'); cardArea.classList.add('hidden');
+                controlsEl.classList.add('hidden'); // Hide controls during initial load
+
+                try {
+                    // ... (fetch and validate JSON - no changes) ...
+                    const response = await fetch(WORDS_FILE_PATH, { cache: "no-store" });
+                    if (!response.ok) throw new Error(`HTTP ${response.status}. Could not fetch '${WORDS_FILE_PATH}'.`);
+                    const jsonData = await response.json();
+                    if (!Array.isArray(jsonData)) throw new Error("JSON data is not an array.");
+                    const isValid = jsonData.every(item => typeof item === 'object' && item && typeof item.original === 'string' && item.original.trim() && typeof item.translated === 'string' && item.translated.trim());
+                    if (!isValid && jsonData.length > 0) throw new Error("JSON objects invalid (missing/empty keys).");
+
+                    cards = jsonData; console.log(`Loaded ${cards.length} cards.`);
+                    startReviewSession(); // Start session (will show controls and init speech)
+                } catch (error) {
+                    // ... (error handling - ensure controls remain hidden, maybe disable speech elements visually) ...
+                    console.error("Error loading words:", error);
+                    loadingErrorEl.textContent = `Error: ${error.message}`; loadingErrorEl.classList.remove('hidden');
+                    statusMessage.textContent = "Failed to load cards."; cards = [];
+                    cardArea.classList.add('hidden'); controlsEl.classList.add('hidden');
+                    // Visually indicate speech failure if load fails
+                    languageSelect.disabled = true; pronounceBtn.disabled = true;
+                    pronounceError.classList.remove('hidden'); pronounceError.title = "Cannot init speech: word loading failed.";
+                }
+            }
+
+            // --- Global Event Listeners ---
+            document.addEventListener('DOMContentLoaded', loadWords); // Start loading on DOM ready
+
+            // Card Interaction
+            checkAnswerBtn.addEventListener('click', checkAnswer);
+            showAnswerBtn.addEventListener('click', showAnswer);
+            answerInput.addEventListener('keypress', (event) => { if (event.key === 'Enter' && !answerInput.disabled && checkAnswerBtn.style.display !== 'none') { event.preventDefault(); checkAnswer(); } });
+
+            // Assessment Buttons
+            againBtn.addEventListener('click', () => repeatCardLater(AGAIN_OFFSET));
+            hardBtn.addEventListener('click', () => repeatCardLater(HARD_OFFSET));
+            easyBtn.addEventListener('click', moveToNextCard);
+
+            // New Session Button
+            newSessionBtn.addEventListener('click', () => {
+                console.log("Starting new session manually...");
+                if (isSpeechApiSupported && synth && synth.speaking) synth.cancel();
+                startReviewSession(true); // Force new
+            });
+
+        })(); // End IIFE
+    </script>
+
 </body>
 </html>
