@@ -1,11 +1,215 @@
 [
   {
+    "original": "Region im Südosten Frankreichs",
+    "translated": "Rhône-Alpes"
+  },
+  {
+    "original": "Departement in den französischen Alpen",
+    "translated": "la Savoie"
+  },
+  {
+    "original": "Departement in den französischen Alpen",
+    "translated": "la Haute-Savoie"
+  },
+  {
+    "original": "ein Departement (französischer Verwaltungsbezirk)",
+    "translated": "un département"
+  },
+  {
+    "original": "der Norden",
+    "translated": "le nord"
+  },
+  {
+    "original": "Berg in den französischen Alpen",
+    "translated": "le mont Blanc"
+  },
+  {
+    "original": "hoch",
+    "translated": "haut/haute"
+  },
+  {
+    "original": "Europa",
+    "translated": "l'Europe (f.)"
+  },
+  {
+    "original": "Haupt-",
+    "translated": "principal/principale"
+  },
+  {
+    "original": "Stadt in den französischen Alpen",
+    "translated": "Annecy"
+  },
+  {
+    "original": "Stadt in den französischen Alpen",
+    "translated": "Chambéry"
+  },
+  {
+    "original": "die Temperatur",
+    "translated": "la température"
+  },
+  {
+    "original": "Departement in der Region Rhône-Alpes",
+    "translated": "la Drome"
+  },
+  {
+    "original": "Departement in der Region Rhône-Alpes",
+    "translated": "l'Ardèche (f.)"
+  },
+  {
+    "original": "die Provence",
+    "translated": "la Provence"
+  },
+  {
+    "original": "Berg im Süden Frankreichs",
+    "translated": "le mont Gerbier de Jonc"
+  },
+  {
+    "original": "eine Quelle",
+    "translated": "une source"
+  },
+  {
+    "original": "die Loire (französischer Fluss)",
+    "translated": "la Loire"
+  },
+  {
+    "original": "ein Fluss ein Strom;",
+    "translated": "un fleuve"
+  },
+  {
+    "original": "die Rhöne (Fluss in Frankreich)",
+    "translated": "le Rhône"
+  },
+  {
+    "original": "Stadt im Departement Drome",
+    "translated": "Valence"
+  },
+  {
+    "original": "Stadt im Departement Ardèche",
+    "translated": "Privas"
+  },
+  {
+    "original": "Stadt im Departement Drôme",
+    "translated": "Montélimar"
+  },
+  {
+    "original": "ein Kontrast; ein Gegensatz;",
+    "translated": "un contraste"
+  },
+  {
+    "original": "gelegen",
+    "translated": "situé/située"
+  },
+  {
+    "original": "eine Grenze",
+    "translated": "une frontière"
+  },
+  {
+    "original": "die Schweiz",
+    "translated": "la Suisse"
+  },
+  {
+    "original": "Italien",
+    "translated": "l'Italie (f.)"
+  },
+  {
+    "original": "ein Kanu",
+    "translated": "un canoë"
+  },
+  {
+    "original": "ein Einwohner/eine Einwohnerin",
+    "translated": "un habitant/une habitante"
+  },
+  {
+    "original": "die Fläche die Oberfläche",
+    "translated": "la superficie"
+  },
+  {
+    "original": "die Saône (Fluss in Frankreich)",
+    "translated": "la Saône"
+  },
+  {
+    "original": "die Olympischen Spiele",
+    "translated": "les Jeux olympiques (m.) (pl.)"
+  },
+  {
+    "original": "jdn, verwöhnen.",
+    "translated": "gâter on"
+  },
+  {
+    "original": "ein Käsefondue",
+    "translated": "une fondue savoyarde"
+  },
+  {
+    "original": "ein Kartoffelgratin",
+    "translated": "un gratin dauphinois"
+  },
+  {
+    "original": "eine Spezialität, eine Besonderheit",
+    "translated": "une spécialité"
+  },
+  {
+    "original": "der Nugat (Süßigkeit aus Mandeln und Honig)",
+    "translated": "le nougat"
+  },
+  {
+    "original": "ein Teig; eine Masse:",
+    "translated": "une pâte"
+  },
+  {
+    "original": "eine Grundlage; eine Basis",
+    "translated": "une base"
+  },
+  {
+    "original": "auf der Grundlage von; (hier) aus",
+    "translated": "à base de qu"
+  },
+  {
+    "original": "ein Eiklar; ein Eiweiß;",
+    "translated": "un blanc d'œuf"
+  },
+  {
+    "original": "der Honig",
+    "translated": "le miel"
+  },
+  {
+    "original": "eine Mandel",
+    "translated": "une amande"
+  },
+  {
+    "original": "mindestens",
+    "translated": "au moins"
+  },
+  {
+    "original": "eine Pistazie",
+    "translated": "une pistache"
+  },
+  {
+    "original": "der Ursprung",
+    "translated": "l'origine (f.)"
+  },
+  {
+    "original": "eine Legende eine Sage",
+    "translated": "une légende"
+  },
+  {
+    "original": "ein Verdacht",
+    "translated": "un soupçon"
+  },
+  {
+    "original": "Südfrankreich",
+    "translated": "le Midi"
+  },
+  {
+    "original": "ein Unterschied",
+    "translated": "une différence"
+  },
+  {
     "original": "eine Provinz",
     "translated": "une province"
   },
   {
     "original": "ein Ereignis",
-    "translated": "un événement"
+    "translated": "un évènement"
   },
   {
     "original": "sich abspielen",
@@ -16,22 +220,6 @@
     "translated": "déménager"
   },
   {
-    "original": "jdn. konjugiert wie magen",
-    "translated": "déménager"
-  },
-  {
-    "original": "ich ziehe um",
-    "translated": "je déménage"
-  },
-  {
-    "original": "wir ziehen um",
-    "translated": "nous déménageons"
-  },
-  {
-    "original": "ich bin umgezogen",
-    "translated": "j'ai déménagé"
-  },
-  {
     "original": "ein Gegenstand",
     "translated": "un objet"
   },
@@ -40,20 +228,20 @@
     "translated": "un regard"
   },
   {
-    "original": "etw. schneiden, abschneiden",
-    "translated": "couper qc"
+    "original": "etw. schneiden; etw. abschneiden",
+    "translated": "couper qo"
   },
   {
-    "original": "jdn./etw. akzeptieren, annehmen",
+    "original": "jdn./etw. akzeptieren; jdn./etw. annehmen",
     "translated": "accepter qn/qc"
   },
   {
-    "original": "eine Decke (hier) ein Einband, Umschlag",
+    "original": "eine Decke; (hier) ein Einband; ein Umschlag",
     "translated": "une couverture"
   },
   {
     "original": "ein Dieb/eine Diebin",
-    "translated": "un voleur/une voleuse"
+    "translated": "un valeur/une voleuse"
   },
   {
     "original": "eine Passage",
@@ -68,23 +256,7 @@
     "translated": "rendre qc à qn"
   },
   {
-    "original": "jdm. konjugiert wie vendre",
-    "translated": "rendre"
-  },
-  {
-    "original": "ich gebe zurück",
-    "translated": "je rends"
-  },
-  {
-    "original": "wir geben zurück",
-    "translated": "nous rendons"
-  },
-  {
-    "original": "ich habe zurückgegeben",
-    "translated": "j'ai rendu"
-  },
-  {
-    "original": "eine Kontrolle (hier) eine Kontrollaufgabe",
+    "original": "eine Kontrolle; (hier) eine Kontrollaufgabe;",
     "translated": "un contrôle"
   },
   {
@@ -100,7 +272,7 @@
     "translated": "une habitude"
   },
   {
-    "original": "gewöhnlich, normalerweise",
+    "original": "gewöhnlich normalerweise",
     "translated": "d'habitude"
   },
   {
@@ -108,56 +280,12 @@
     "translated": "une route"
   },
   {
-    "original": "wenn, als",
+    "original": "wenn; als",
     "translated": "lorsque"
   },
   {
     "original": "eine Schulter",
     "translated": "une épaule"
-  },
-  {
-    "original": "Zuerst haben sie in Paris gewohnt, jetzt wohnen sie in der Provinz.",
-    "translated": "D'abord, ils ont habité à Paris, maintenant ils habitent en province."
-  },
-  {
-    "original": "Viele wichtige Ereignisse spielen sich in Paris ab.",
-    "translated": "Beaucoup d'événements importants se déroulent à Paris."
-  },
-  {
-    "original": "Sie sind von Paris nach Valence umgezogen.",
-    "translated": "Ils ont déménagé de Paris à Valence."
-  },
-  {
-    "original": "Ich brauche ein Messer, um das Brot zu schneiden.",
-    "translated": "Il me faut un couteau pour couper le pain."
-  },
-  {
-    "original": "Auf dem Umschlag ist das Foto eines Jungen.",
-    "translated": "Sur la couverture, il y a la photo d'un garçon."
-  },
-  {
-    "original": "Die Lehrerin gibt die Arbeiten zurück.",
-    "translated": "La professeure rend les copies."
-  },
-  {
-    "original": "etw. jdm. zurückgeben",
-    "translated": "redonner qc à qn"
-  },
-  {
-    "original": "Wer hat die beste Note?",
-    "translated": "Qu'a la meilleure note?"
-  },
-  {
-    "original": "Gélatos hat eine gute Note, wie gewöhnlich.",
-    "translated": "Gélatos a une bonne note, comme d'habitude."
-  },
-  {
-    "original": "eine Autobahn; englisch: Straße",
-    "translated": "une autoroute; englisch: road"
-  },
-  {
-    "original": "wenn",
-    "translated": "quand"
   },
   {
     "original": "(einer Person/einer Sache) wegen",
@@ -168,16 +296,8 @@
     "translated": "une impression"
   },
   {
-    "original": "den Eindruck haben, dass",
-    "translated": "avoir l'impression que"
-  },
-  {
-    "original": "etw. fühlen, spüren; etw. riechen",
+    "original": "etw. fühlen; etw. spüren; etw, riechen",
     "translated": "sentir qc"
-  },
-  {
-    "original": "jdm. konjugiert wie dormir: je sens, tu sens, il/elle sent, nous sentons, vous sentez, ils/elles sentent; j'ai senti",
-    "translated": "sentir"
   },
   {
     "original": "afrikanisch",
@@ -196,16 +316,12 @@
     "translated": "encourager qn"
   },
   {
-    "original": "jdm. konjugiert wie manger: j'encourage, nous encourageons; j'ai encouragé",
-    "translated": "encourager"
-  },
-  {
     "original": "das Lächeln",
     "translated": "le sourire"
   },
   {
-    "original": "hinten in, unten in",
-    "translated": "au fond de qc"
+    "original": "hinten in etw.; unten in etw.",
+    "translated": "au fond de qe"
   },
   {
     "original": "eine Figur, eine Statuette",
@@ -216,11 +332,7 @@
     "translated": "disparaître"
   },
   {
-    "original": "jdm. konjugiert wie connaître: je disparais, il disparaît, nous disparaissons; j'ai disparu",
-    "translated": "disparaître"
-  },
-  {
-    "original": "jdn./etw. berühren, jdn./etw. anfassen",
+    "original": "jdn./etw. berühren; jdn./etw. anfassen",
     "translated": "toucher qn/qc"
   },
   {
@@ -229,14 +341,10 @@
   },
   {
     "original": "etw. stehlen",
-    "translated": "voler qc"
+    "translated": "voler qu"
   },
   {
-    "original": "ein Schulleiter/eine Schulleiterin (im „collège\")",
-    "translated": "un principal/une principale"
-  },
-  {
-    "original": "draußen, im Freien (hier) Raus mit euch!",
+    "original": "draußen; im Freien; (hier) Raus mit euch!",
     "translated": "dehors"
   },
   {
@@ -248,100 +356,20 @@
     "translated": "parmi"
   },
   {
-    "original": "seltsam, merkwürdig",
+    "original": "seltsam merkwürdig",
     "translated": "étrange/étrange"
   },
   {
-    "original": "das Gegenteil, das Umgekehrte",
+    "original": "das Gegenteil; das Umgekehrte",
     "translated": "l'inverse (m.)"
-  },
-  {
-    "original": "gelingen, etw. zu tun",
-    "translated": "arriver à faire qc"
   },
   {
     "original": "Afrika",
     "translated": "l'Afrique (f.)"
   },
   {
-    "original": "James hat den Eindruck, dass Mikaleff Gélatos nicht sehr mag.",
-    "translated": "James a l'impression que Mikaleff n'aime pas beaucoup Gélatos."
-  },
-  {
-    "original": "Die Schüler spürten, dass der Lehrer gerne in die Klasse kam.",
-    "translated": "Les élèves sentaient que le prof était content de venir en classe."
-  },
-  {
-    "original": "ein afrikanisches Land, afrikanische Musik",
-    "translated": "un pays africain; la musique africaine"
-  },
-  {
-    "original": "eine Zeichnung, ein Zeichner/eine Zeichnerin",
-    "translated": "un dessin, un dessinateur/une dessinatrice"
-  },
-  {
-    "original": "Der Lehrer ermutigte alle seine Schüler.",
-    "translated": "Le professeur encourageait tous ses élèves."
-  },
-  {
-    "original": "der Mut",
-    "translated": "le courage"
-  },
-  {
-    "original": "lachen, lächeln",
-    "translated": "rire (lachen), sourire (lächeln)"
-  },
-  {
-    "original": "hinten in der Klasse (im Klassenraum)",
-    "translated": "au fond de la classe"
-  },
-  {
-    "original": "Die Figuren sind verschwunden!",
-    "translated": "Les statuettes ont disparu!"
-  },
-  {
-    "original": "nicht mehr da sein",
-    "translated": "ne plus être là"
-  },
-  {
-    "original": "jdn./etw. berühren, jdn./etw. anfassen",
-    "translated": "toucher qn/qc"
-  },
-  {
-    "original": "Er hatte Tränen in den Augen.",
-    "translated": "Il avait les larmes aux yeux."
-  },
-  {
-    "original": "Man hat sie gestohlen!",
-    "translated": "On les a volées!"
-  },
-  {
-    "original": "ein Dieb",
-    "translated": "un voleur"
-  },
-  {
-    "original": "James hat eine gefährliche Entdeckung gemacht.",
-    "translated": "James a fait une découverte dangereuse."
-  },
-  {
-    "original": "Gibt es einen Dieb unter den Schülern?",
-    "translated": "Il y a un voleur parmi les élèves?"
-  },
-  {
-    "original": "seltsam",
-    "translated": "étrange"
-  },
-  {
-    "original": "das Gegenteil",
-    "translated": "le contraire"
-  },
-  {
-    "original": "Er konnte es nicht glauben.",
-    "translated": "Il n'arrivait pas à le croire."
-  },
-  {
     "original": "jdn./etw. streicheln",
-    "translated": "caressser qn/qc"
+    "translated": "caresser qn/qc"
   },
   {
     "original": "ein Eigentümer/eine Eigentümerin",
@@ -352,12 +380,8 @@
     "translated": "le lendemain"
   },
   {
-    "original": "jd./etw. werden",
+    "original": "d./etw. werden",
     "translated": "devenir qn/qc"
-  },
-  {
-    "original": "jdm. konjugiert wie venir: je deviens, nous devenons; je suis devenu(e)",
-    "translated": "devenir"
   },
   {
     "original": "etw. behalten",
@@ -368,11 +392,11 @@
     "translated": "la vérité"
   },
   {
-    "original": "hell, klar",
+    "original": "hell klar",
     "translated": "clair/claire"
   },
   {
-    "original": "eine Erlaubnis, eine Genehmigung",
+    "original": "eine Erlaubnis; eine Genehmigung",
     "translated": "une autorisation"
   },
   {
@@ -384,15 +408,11 @@
     "translated": "une seconde"
   },
   {
-    "original": "klopfen; schlagen",
+    "original": "klopfen, schlagen",
     "translated": "frapper"
   },
   {
-    "original": "laufen, rennen",
-    "translated": "courir"
-  },
-  {
-    "original": "jdm. konjugiert wie courir: je cours, tu cours, il/elle/on court, nous courons, vous courez, ils/elles courent; j'ai couru",
+    "original": "laufen; rennen;",
     "translated": "courir"
   },
   {
@@ -400,23 +420,15 @@
     "translated": "une mouche"
   },
   {
-    "original": "zögern, etw. zu tun",
-    "translated": "hésiter à faire qc"
-  },
-  {
     "original": "lügen",
     "translated": "mentir"
   },
   {
-    "original": "jdm. konjugiert wie sentir und dormir: je mens, nous mentons; j'ai menti",
-    "translated": "mentir"
-  },
-  {
     "original": "Das wird schon wieder.",
-    "translated": "ça va s'arranger"
+    "translated": "Ça va s'arranger."
   },
   {
-    "original": "ein Taschendieb",
+    "original": "lein Taschendieb",
     "translated": "un pickpocket"
   },
   {
@@ -424,112 +436,12 @@
     "translated": "malade/malade"
   },
   {
-    "original": "Sie strich mir über die Haare.",
-    "translated": "Elle m'a caressé les cheveux."
-  },
-  {
-    "original": "Man muss die Figuren ihrem Eigentümer zurückgeben.",
-    "translated": "Il faut rendre les statuettes à son propriétaire."
-  },
-  {
-    "original": "Am folgenden Tag ging ich ins Collège.",
-    "translated": "Le lendemain, je suis parti au collège."
-  },
-  {
-    "original": "Alles wurde kompliziert.",
-    "translated": "Tout devenait compliqué."
-  },
-  {
-    "original": "kommen",
-    "translated": "venir"
-  },
-  {
-    "original": "Ich konnte das nicht für mich ganz allein behalten.",
-    "translated": "Je ne pouvais pas garder ça pour moi tout seul."
-  },
-  {
-    "original": "Das ist die Wahrheit. = Das stimmt.",
-    "translated": "C'est la vérité. = C'est vrai."
-  },
-  {
-    "original": "Ich bat um die Erlaubnis, zur Krankenstation gehen zu dürfen.",
-    "translated": "J'ai demandé l'autorisation d'aller à l'infirmerie."
-  },
-  {
-    "original": "jemanden nach dem Weg fragen",
-    "translated": "demander le chemin à qn"
-  },
-  {
-    "original": "Das «e» spricht man weich aus wie ein «g».",
-    "translated": "Das «e» spricht man weich aus wie ein «g»."
-  },
-  {
-    "original": "Jemand klopfte an die Tür.",
-    "translated": "Quelqu'un a frappé à la porte."
-  },
-  {
-    "original": "Ich stand kurz vor der Katastrophe.",
-    "translated": "Je courais à la catastrophe."
-  },
-  {
-    "original": "ein Lauf, ein Rennen",
-    "translated": "une course: ein Lauf, ein Rennen"
-  },
-  {
-    "original": "zögern",
-    "translated": "englisch: to hesitate"
-  },
-  {
-    "original": "Ich lüge nicht, das ist die Wahrheit.",
-    "translated": "Je ne mens pas, c'est la vérité!"
-  },
-  {
-    "original": "Das wird schon wieder.",
-    "translated": "Ça va s'arranger."
-  },
-  {
-    "original": "Mir geht es nicht gut, ich bin krank.",
-    "translated": "Je ne vais pas bien, je suis malade."
-  },
-  {
-    "original": "Zusammenfassen, gewusst wie!",
-    "translated": "Pour résumer un texte"
-  },
-  {
-    "original": "Der Text erzählt die Geschichte von ...",
-    "translated": "Le texte raconte l'histoire de ..."
-  },
-  {
-    "original": "Der Text handelt von ...",
-    "translated": "Le texte parle de ..."
-  },
-  {
-    "original": "Im ersten Teil ...",
-    "translated": "Dans la première partie ..."
-  },
-  {
-    "original": "Im zweiten Teil ...",
-    "translated": "Dans la deuxième partie ..."
-  },
-  {
-    "original": "Am Ende ...",
-    "translated": "À la fin ..."
-  },
-  {
     "original": "eine Tatsache",
     "translated": "un fait"
   },
   {
     "original": "(jetzt) vor zwei Wochen",
-    "translated": "il y a deux semaines"
-  },
-  {
-    "original": "(jetzt) vor zwei Stunden",
-    "translated": "il y a deux heures"
-  },
-  {
-    "original": "vor 2 Uhr",
-    "translated": "avant deux heures"
+    "translated": "il y a deux semaines."
   },
   {
     "original": "also",
@@ -548,7 +460,7 @@
     "translated": "pendant que"
   },
   {
-    "original": "ein (Kleider-)Schrank",
+    "original": "ein Schrank",
     "translated": "une armoire"
   },
   {
@@ -564,7 +476,7 @@
     "translated": "un pas"
   },
   {
-    "original": "aus der Nähe, von Nahem",
+    "original": "aus der Nähe; von Nahem",
     "translated": "de près"
   },
   {
@@ -572,20 +484,20 @@
     "translated": "un médicament"
   },
   {
-    "original": "jdn. verraten",
-    "translated": "dénoncer qn"
+    "original": "jdn, verraten",
+    "translated": "dénoncer an"
   },
   {
     "original": "um jdn./etw. herum",
     "translated": "autour de qn/qc"
   },
   {
-    "original": "jdn. einer Sache verdächtigen",
+    "original": "jdn, einer Sache verdächtigen",
     "translated": "soupçonner qn de qc"
   },
   {
-    "original": "(hier) ein Diebstahl, ein Raub",
-    "translated": "un vol"
+    "original": "(hier) ein Diebstahl; ein Raub",
+    "translated": "un val"
   },
   {
     "original": "jedesmal wenn",
@@ -593,10 +505,10 @@
   },
   {
     "original": "bleich",
-    "translated": "pâle/pâle"
+    "translated": "pâle/pale"
   },
   {
-    "original": "gegen, in Richtung",
+    "original": "gegen; in Richtung",
     "translated": "vers"
   },
   {
@@ -604,179 +516,15 @@
     "translated": "pardonner qc à qn"
   },
   {
-    "original": "jdn. anklagen",
-    "translated": "accuser qn"
-  },
-  {
-    "original": "Das ist eine Tatsache. = Das stimmt.",
-    "translated": "C'est un fait. = C'est vrai."
-  },
-  {
-    "original": "Vor drei Tagen habe ich Lucie getroffen.",
-    "translated": "Il y a trois jours, j'ai rencontré Lucie."
-  },
-  {
-    "original": "Pierre ist krank, er kann also nicht kommen.",
-    "translated": "Pierre est malade, il ne peut donc pas venir."
-  },
-  {
-    "original": "Er fehlt mir.",
-    "translated": "Il me manque."
-  },
-  {
-    "original": "Während er sprach, ging ich ein Glas Wasser holen.",
-    "translated": "Pendant qu'il parlait, je suis parti chercher un verre d'eau."
-  },
-  {
-    "original": "Sein Schrank stand offen.",
-    "translated": "Son armoire était ouverte."
-  },
-  {
-    "original": "Die Figur war zur Hälfte von einem Pulli verdeckt.",
-    "translated": "La statuette était à moitié cachée par un pull."
-  },
-  {
-    "original": "Wer hat die Figur versteckt?",
-    "translated": "Qui a caché la statuette?"
-  },
-  {
-    "original": "Ich machte einen Schritt, um es aus der Nähe zu betrachten.",
-    "translated": "J'ai fait un pas pour regarder de près."
-  },
-  {
-    "original": "jdn. verraten",
-    "translated": "deutch: jdn. denunzieren"
-  },
-  {
-    "original": "Er war umringt von Leuten.",
-    "translated": "Il y avait du monde autour de lui."
-  },
-  {
-    "original": "Man verdächtigte mich.",
-    "translated": "On me soupçonnait."
-  },
-  {
-    "original": "ein Verdacht",
-    "translated": "un soupçon"
-  },
-  {
-    "original": "ein Dieb, etw. stehlen",
-    "translated": "un voleur, voler qc"
-  },
-  {
-    "original": "Er wurde bleich.",
-    "translated": "Il devenait pâle."
-  },
-  {
-    "original": "Schließlich kam er auf mich zu.",
-    "translated": "Enfin, il est venu vers moi."
-  },
-  {
-    "original": "Ich habe ihm verziehen.",
-    "translated": "Je lui ai pardonné."
-  },
-  {
-    "original": "akzeptieren, dass sich jemand entschuldigt",
-    "translated": "accepter que qn s'excuse"
-  },
-  {
-    "original": "anklagen",
-    "translated": "englisch: to accuse"
-  },
-  {
-    "original": "Wortschatz für Krimis",
-    "translated": "Des événements mystérieux"
-  },
-  {
-    "original": "etw. spüren, etw. riechen",
-    "translated": "sentir qc"
-  },
-  {
-    "original": "den Eindruck haben, dass",
-    "translated": "avoir l'impression que"
-  },
-  {
-    "original": "jdn. anklagen",
-    "translated": "accuser qn"
-  },
-  {
-    "original": "jdm. etw. verzeihen",
-    "translated": "pardonner qc à qn"
-  },
-  {
-    "original": "jdm. einen Blick zuwerfen",
-    "translated": "lancer un regard à qn"
-  },
-  {
-    "original": "jdn. verdächtigen",
-    "translated": "soupçonner qn"
-  },
-  {
-    "original": "jdm. die Wahrheit sagen",
-    "translated": "dire la vérité à qn"
-  },
-  {
-    "original": "jdn. belügen",
-    "translated": "mentir à qn"
-  },
-  {
-    "original": "zögern, etw. zu tun",
-    "translated": "hésiter à faire qc"
-  },
-  {
-    "original": "etw. riskieren",
-    "translated": "risquer qc"
-  },
-  {
-    "original": "jdn. schlagen",
-    "translated": "frapper qn"
-  },
-  {
-    "original": "jdm. etw. stehlen",
-    "translated": "voler qc à qn"
-  },
-  {
-    "original": "eifersüchtig auf jdn. sein",
-    "translated": "être jaloux/jalouse de qn"
-  },
-  {
-    "original": "jdn. akzeptieren",
-    "translated": "accepter qn"
-  },
-  {
-    "original": "jdm. glauben",
-    "translated": "croire qn"
-  },
-  {
-    "original": "jdn. verraten",
-    "translated": "dénoncer qn"
-  },
-  {
-    "original": "etw. behalten",
-    "translated": "garder qc"
-  },
-  {
-    "original": "etw. vor jdm. verstecken",
-    "translated": "cacher qc à qn"
-  },
-  {
-    "original": "jdm. etw. zurückgeben",
-    "translated": "rendre qc à qn"
-  },
-  {
-    "original": "verschwinden",
-    "translated": "disparaître"
-  },
-  {
-    "original": "ein Diebstahl",
-    "translated": "un vol"
+    "original": "jdn, anklagen",
+    "translated": "accuser on"
   },
   {
     "original": "eine Blutspur",
     "translated": "une trace de sang"
   },
   {
-    "original": "ein Indiz",
+    "original": "ein Anzeichen; eine Spur",
     "translated": "un indice"
   },
   {
@@ -808,75 +556,2551 @@
     "translated": "elle est morte"
   },
   {
-    "original": "schließlich",
-    "translated": "enfin"
+    "original": "eine Arbeit/Arbeiten",
+    "translated": "un travail/des travaux"
   },
   {
-    "original": "danach",
-    "translated": "ensuite"
+    "original": "ein Job (ugs).",
+    "translated": "un boulot (fam.)"
   },
   {
-    "original": "weit von",
-    "translated": "loin de"
+    "original": "beschäftigen; besetzen",
+    "translated": "occuper"
   },
   {
-    "original": "während",
-    "translated": "pendant"
+    "original": "ein Gymnasium; ein Lycée",
+    "translated": "un lycée"
   },
   {
-    "original": "plötzlich",
-    "translated": "tout à coup"
+    "original": "ein Ingenieur/eine Ingenieurin",
+    "translated": "un ingénieur/une femme Ingénieur"
   },
   {
-    "original": "sofort",
-    "translated": "tout de suite"
+    "original": "etw. herstellen",
+    "translated": "fabriquer qe"
   },
   {
-    "original": "etwas mitbringen",
-    "translated": "apporter qc"
+    "original": "etw. gründen",
+    "translated": "fonder qc"
   },
   {
-    "original": "aussehen",
-    "translated": "avoir l'air"
+    "original": "ein Betrieb; eine Firma; ein Unternehmen",
+    "translated": "une entreprise"
   },
   {
-    "original": "eine Unterrichtsstunde",
-    "translated": "un cours"
+    "original": "ein Krankenpfleger/eine Krankenpflegerin",
+    "translated": "un infirmier/une infirmière"
   },
   {
-    "original": "etwas glauben",
-    "translated": "croire qc"
+    "original": "eine Ausbildung",
+    "translated": "une formation"
   },
   {
-    "original": "bleiben",
-    "translated": "rester"
+    "original": "eine (Nach)Forschung, eine Suche",
+    "translated": "une recherche"
   },
   {
-    "original": "klingeln",
-    "translated": "sonner"
+    "original": "medizinisch",
+    "translated": "médical/médicale."
   },
   {
-    "original": "ein Verdacht",
-    "translated": "un soupçon"
+    "original": "eine Analyse; eine genaue Untersuchung:",
+    "translated": "une analyse"
   },
   {
-    "original": "Südfrankreich",
-    "translated": "le Midi"
+    "original": "ein Wissenschaftler/eine Wissenschaftlerin",
+    "translated": "un scientifique/une scientifique"
   },
   {
-    "original": "ein Unterschied",
-    "translated": "une différence"
+    "original": "ein Impfstoff; eine Impfung",
+    "translated": "un vaccin"
   },
   {
-    "original": "„Soupçons“ ist der Titel eines Buches von Hervé Mestron.",
-    "translated": "«Soupçons» est le titre d'un livre de Hervé Mestron."
+    "original": "aufwachen",
+    "translated": "se réveiller"
   },
   {
-    "original": "In Südfrankreich gibt es viele Touristen.",
-    "translated": "Dans le Midi, il y a beaucoup de touristes."
+    "original": "ein Wecker",
+    "translated": "un réveil"
   },
   {
-    "original": "unterschiedlich (anders, verschieden)",
-    "translated": "différent (anders, verschieden)"
+    "original": "etw. heben",
+    "translated": "lever go"
+  },
+  {
+    "original": "aufstehen; sich erheben.",
+    "translated": "se lever"
+  },
+  {
+    "original": "jdn./etw. waschen",
+    "translated": "laver qn/qc"
+  },
+  {
+    "original": "sich waschen",
+    "translated": "se laver"
+  },
+  {
+    "original": "sich anziehen; sich kleiden",
+    "translated": "s'habiller"
+  },
+  {
+    "original": "der Ehemann",
+    "translated": "le mari"
+  },
+  {
+    "original": "sich beeilen",
+    "translated": "se dépêcher"
+  },
+  {
+    "original": "etw. verpassen; etw. verpfuschen; etw. nicht schaffen",
+    "translated": "rater qc (fam.)"
+  },
+  {
+    "original": "ein Abend (im Verlauf)",
+    "translated": "une soirée"
+  },
+  {
+    "original": "sich mit jdm./etw. beschäftigen; sich um jdn./etw. kümmern",
+    "translated": "s'occuper de qn/qc"
+  },
+  {
+    "original": "seufzen",
+    "translated": "soupirer"
+  },
+  {
+    "original": "dennoch; trotzdem",
+    "translated": "pourtant"
+  },
+  {
+    "original": "die Orientierung",
+    "translated": "l'orientation (f.)"
+  },
+  {
+    "original": "ein Berufsberatungstag",
+    "translated": "une journée d'orientation"
+  },
+  {
+    "original": "jdn, über etw.informieren",
+    "translated": "informer qn sur qc"
+  },
+  {
+    "original": "sich über etw. informieren",
+    "translated": "s'informer sur qe"
+  },
+  {
+    "original": "ein Krankenhaus",
+    "translated": "un hôpital"
+  },
+  {
+    "original": "Krankenhaus in Paris",
+    "translated": "l'hôpital Cochin"
+  },
+  {
+    "original": "sich mit jdm. streiten",
+    "translated": "se disputer avec on"
+  },
+  {
+    "original": "etw. beenden; etw. fertigstellen",
+    "translated": "terminer oc"
+  },
+  {
+    "original": "schmollen",
+    "translated": "bouder"
+  },
+  {
+    "original": "gerade etw. tun",
+    "translated": "être en train de faire qc"
+  },
+  {
+    "original": "sich auf etw. konzentrieren",
+    "translated": "se concentrer sur oc"
+  },
+  {
+    "original": "hart; schwierig",
+    "translated": "dur/dure"
+  },
+  {
+    "original": "man könnte",
+    "translated": "on pourrait"
+  },
+  {
+    "original": "sich fühlen",
+    "translated": "se sentir"
+  },
+  {
+    "original": "gestresst",
+    "translated": "stressé/stressée"
+  },
+  {
+    "original": "fertig bereit",
+    "translated": "prêt/prête"
+  },
+  {
+    "original": "sich ausruhen",
+    "translated": "se reposer"
+  },
+  {
+    "original": "sich schließen",
+    "translated": "se fermer"
+  },
+  {
+    "original": "gerade etw. getan haben",
+    "translated": "venir de faire qc"
+  },
+  {
+    "original": "Echt ätzend! (ugs.)",
+    "translated": "Quelle galère!"
+  },
+  {
+    "original": "etw. leeren",
+    "translated": "vider qc"
+  },
+  {
+    "original": "das Geschirr",
+    "translated": "la vaisselle"
+  },
+  {
+    "original": "Geschirr spülen; den Abwasch machen",
+    "translated": "faire la vaisselle"
+  },
+  {
+    "original": "ein Staubsauger",
+    "translated": "un aspirateur"
+  },
+  {
+    "original": "Staub saugen",
+    "translated": "passer l'aspirateur"
+  },
+  {
+    "original": "das Bad putzen",
+    "translated": "nettoyer la salle de bains"
+  },
+  {
+    "original": "den Hamsterkäfig sauber machen",
+    "translated": "nettoyer la cage de son hamster"
+  },
+  {
+    "original": "Staub saugen",
+    "translated": "passer l'aspirateur"
+  },
+  {
+    "original": "das Geschirr",
+    "translated": "la vaisselle"
+  },
+  {
+    "original": "die Wäsche",
+    "translated": "le linge"
+  },
+  {
+    "original": "den Tisch abräumen",
+    "translated": "débarrasser la table"
+  },
+  {
+    "original": "ein Wochenende",
+    "translated": "un week-end"
+  },
+  {
+    "original": "hier: einzig",
+    "translated": "seul/seule"
+  },
+  {
+    "original": "eine Stimmung; eine Atmosphäre",
+    "translated": "une ambiance"
+  },
+  {
+    "original": "unruhig beunruhigt",
+    "translated": "Inquiet/inquiète"
+  },
+  {
+    "original": "sich für etw. interessieren",
+    "translated": "s'intéresser à qc"
+  },
+  {
+    "original": "ein Nachrichtensprecher/eine Nachrichtensprecherin; ein Moderatorfeine Moderatorin",
+    "translated": "un présentateur/une présentatrice"
+  },
+  {
+    "original": "ein Abenteuer",
+    "translated": "une aventure"
+  },
+  {
+    "original": "ein Pilot/eine Pilotin",
+    "translated": "un pilote/une pilote"
+  },
+  {
+    "original": "ein Arzt/eine Ärztin",
+    "translated": "un médecin/une femme médecin"
+  },
+  {
+    "original": "Inselstaat im Karibischen Meer",
+    "translated": "Haiti"
+  },
+  {
+    "original": "zurück sein",
+    "translated": "être de retour"
+  },
+  {
+    "original": "unglaublich",
+    "translated": "incroyable"
+  },
+  {
+    "original": "eine Landschaft",
+    "translated": "un paysage"
+  },
+  {
+    "original": "faszinieren: fesseln;",
+    "translated": "fasciner"
+  },
+  {
+    "original": "eine Entscheidung",
+    "translated": "une décision"
+  },
+  {
+    "original": "eine Entscheidung treffen",
+    "translated": "prendre une décision."
+  },
+  {
+    "original": "humanitär, menschenfreundlich",
+    "translated": "humanitaire"
+  },
+  {
+    "original": "ein Prozent",
+    "translated": "un pour cent (inv.)"
+  },
+  {
+    "original": "spannend; fesselnd",
+    "translated": "passionnant/passionnante"
+  },
+  {
+    "original": "du könntest",
+    "translated": "tu pourrais"
+  },
+  {
+    "original": "ein Praktikum",
+    "translated": "un stage"
+  },
+  {
+    "original": "schließlich, zum Schluss,",
+    "translated": "finalement"
+  },
+  {
+    "original": "ein Koch/eine Köchin",
+    "translated": "un cuisinier/une cuisinière"
+  },
+  {
+    "original": "ein Tierarzt/eine Tierärztin",
+    "translated": "un vétérinaire/une vétérinaire"
+  },
+  {
+    "original": "ein Architekt/eine Architektin",
+    "translated": "un architecte/une architecte"
+  },
+  {
+    "original": "ein Gärtner/eine Gärtnerin",
+    "translated": "un jardinier/une jardinière"
+  },
+  {
+    "original": "ein Friseur/eine Friseurin",
+    "translated": "un coiffeur/une coiffeuse"
+  },
+  {
+    "original": "ein Mechaniker/eine Mechanikerin",
+    "translated": "un mécanicien/une mécanicienne"
+  },
+  {
+    "original": "ein Musiker/eine Musikerin",
+    "translated": "un musicien/une musicienne"
+  },
+  {
+    "original": "normalerweise",
+    "translated": "normalement"
+  },
+  {
+    "original": "eine Krankenversicherungskarte",
+    "translated": "une carte vitale"
+  },
+  {
+    "original": "ein Arzneimittel; ein Medikament;",
+    "translated": "un médicament"
+  },
+  {
+    "original": "eine Apotheke",
+    "translated": "une pharmacie"
+  },
+  {
+    "original": "eine Rückzahlung; eine Rückerstattung",
+    "translated": "un remboursement"
+  },
+  {
+    "original": "die Industrie",
+    "translated": "l'industrie (f.)"
+  },
+  {
+    "original": "der Handel",
+    "translated": "le commerce"
+  },
+  {
+    "original": "die Landwirtschaft; der Ackerbau;",
+    "translated": "l'agriculture (f.)"
+  },
+  {
+    "original": "stark",
+    "translated": "fort/forte"
+  },
+  {
+    "original": "gut sein in etw.; stark sein in etw.",
+    "translated": "être fort(e) en"
+  },
+  {
+    "original": "eine Sprache",
+    "translated": "une langue"
+  },
+  {
+    "original": "die Technik",
+    "translated": "la technique"
+  },
+  {
+    "original": "mit jdm. kommunizieren; Nachrichten austauschen;",
+    "translated": "communiquer avec qn"
+  },
+  {
+    "original": "die Natur",
+    "translated": "la nature"
+  },
+  {
+    "original": "reisen",
+    "translated": "voyager"
+  },
+  {
+    "original": "ein Landwirt/eine Landwirtin",
+    "translated": "un agriculteur/une agricultrice"
+  },
+  {
+    "original": "ein Rechtsanwalt/eine Rechtsanwältin",
+    "translated": "un avocat/une avocate"
+  },
+  {
+    "original": "ein Rennfahrer/eine Rennfahrerin",
+    "translated": "un coureur automobile/une coureuse automobile"
+  },
+  {
+    "original": "ein Diplomat/eine Diplomatin",
+    "translated": "un diplomate/une diplomate"
+  },
+  {
+    "original": "ein Fußballspieler/eine Fußballspielerin",
+    "translated": "un joueur de foot/une joueuse de foot"
+  },
+  {
+    "original": "ein Polizist/eine Polizistin",
+    "translated": "un policier/une policière"
+  },
+  {
+    "original": "ein Feuerwehrmann/eine Feuerwehrfrau",
+    "translated": "un pompier/une femme pompier"
+  },
+  {
+    "original": "lein Aufenthalt",
+    "translated": "un séjour"
+  },
+  {
+    "original": "Stadt in Zentralfrankreich",
+    "translated": "Tours"
+  },
+  {
+    "original": "etw. entdecken",
+    "translated": "découvrir qc"
+  },
+  {
+    "original": "ein Schüleraustausch",
+    "translated": "un échange scolaire"
+  },
+  {
+    "original": "ein Brieffreund/eine Brieftreundin, ein Austauschpartner/eine Austauschnartnerin",
+    "translated": "un correspondant/une correspondante"
+  },
+  {
+    "original": "eine Website",
+    "translated": "un site"
+  },
+  {
+    "original": "das Deutsch-Französische Jugendwerk (DFJW)",
+    "translated": "l'Office franco-allemand pour la jeunesse (m.)"
+  },
+  {
+    "original": "ein Bus (Reisebus)",
+    "translated": "un car"
+  },
+  {
+    "original": "eine Diashow",
+    "translated": "un diaporama"
+  },
+  {
+    "original": "leine Brücke",
+    "translated": "un pont"
+  },
+  {
+    "original": "eine Kirche",
+    "translated": "une église"
+  },
+  {
+    "original": "ein Rathaus",
+    "translated": "un Hôtel de ville"
+  },
+  {
+    "original": "ungefähr, etwa",
+    "translated": "environ"
+  },
+  {
+    "original": "ein Spaziergang",
+    "translated": "une promenade"
+  },
+  {
+    "original": "hier: ein Ausflug",
+    "translated": "une sortie"
+  },
+  {
+    "original": "berühmte französische Reitschule",
+    "translated": "le Cadre Noir"
+  },
+  {
+    "original": "ein Denkmal; ein Monument",
+    "translated": "un monument"
+  },
+  {
+    "original": "nahe bei jdm./etw.",
+    "translated": "près de qn/qc"
+  },
+  {
+    "original": "ein Schloss",
+    "translated": "un château"
+  },
+  {
+    "original": "Schloss und Gemeinde an der Loire",
+    "translated": "Villandry"
+  },
+  {
+    "original": "bekloppt irre (ugs.)",
+    "translated": "dingue/dingue (fam.)"
+  },
+  {
+    "original": "jdn. irre machen",
+    "translated": "rendre on dingue"
+  },
+  {
+    "original": "der Bauch",
+    "translated": "le ventre"
+  },
+  {
+    "original": "wagen; sich trauen etw, zu tun",
+    "translated": "oser faire oc"
+  },
+  {
+    "original": "Kohidampf haben (ugs.)",
+    "translated": "avoir la dalle (fam)."
+  },
+  {
+    "original": "ein Fisch",
+    "translated": "un poisson"
+  },
+  {
+    "original": "höflich",
+    "translated": "poli/polie"
+  },
+  {
+    "original": "köstlich",
+    "translated": "délicieux/délicieuse"
+  },
+  {
+    "original": "ein fester Freund/eine feste Freundin",
+    "translated": "un petit copain/une petite copine"
+  },
+  {
+    "original": "verlegen",
+    "translated": "géné/génée"
+  },
+  {
+    "original": "etw. vermeiden",
+    "translated": "éviter qe"
+  },
+  {
+    "original": "dämlich (ugs.)",
+    "translated": "débile/débile (fam.)"
+  },
+  {
+    "original": "ein Programm",
+    "translated": "un programme"
+  },
+  {
+    "original": "der Cher (Fluss in Frankreich)",
+    "translated": "le Cher"
+  },
+  {
+    "original": "bis",
+    "translated": "jusque"
+  },
+  {
+    "original": "der Regen",
+    "translated": "la pluie"
+  },
+  {
+    "original": "ein Gift",
+    "translated": "un poison"
+  },
+  {
+    "original": "ein Fehler",
+    "translated": "une faute"
+  },
+  {
+    "original": "zurechtkommen, sich zu helfen wissen",
+    "translated": "se débrouiller"
+  },
+  {
+    "original": "nett",
+    "translated": "gentil/gentille"
+  },
+  {
+    "original": "sicher, sicherlich (Adv.)",
+    "translated": "sürement"
+  },
+  {
+    "original": "Stadt (und Schloss) an der Loire",
+    "translated": "Saumur"
+  },
+  {
+    "original": "sich verstehen",
+    "translated": "s'entendre"
+  },
+  {
+    "original": "verliebt",
+    "translated": "amoureux/amoureuse"
+  },
+  {
+    "original": "ein Wörterbuch",
+    "translated": "un dictionnaire"
+  },
+  {
+    "original": "süß (Geschmack)",
+    "translated": "sucré/sucrée"
+  },
+  {
+    "original": "süß; niedlich",
+    "translated": "mignon/mignonne"
+  },
+  {
+    "original": "ein Niveau eine Stufe",
+    "translated": "un niveau"
+  },
+  {
+    "original": "ein Standard; ein Normalmaß",
+    "translated": "un standard"
+  },
+  {
+    "original": "vertraut, geläufig; hier: umgangssprachlich",
+    "translated": "familier/familière"
+  },
+  {
+    "original": "peinlich; lästig;",
+    "translated": "gênant/gênante"
+  },
+  {
+    "original": "Peinlich!; So eine Blamage! (ugs.)",
+    "translated": "J'ai la honte! (fam.)"
+  },
+  {
+    "original": "die Wettervorhersage",
+    "translated": "la météo"
+  },
+  {
+    "original": "bedeckt",
+    "translated": "couvert/couverte"
+  },
+  {
+    "original": "eine Wolke",
+    "translated": "un nuage"
+  },
+  {
+    "original": "der Schnee",
+    "translated": "la neige"
+  },
+  {
+    "original": "die Gegend um Tours",
+    "translated": "la Touraine"
+  },
+  {
+    "original": "Das ist sehr unangenehm.",
+    "translated": "C'est chiant!"
+  },
+  {
+    "original": "Das ist sehr unangenehm.",
+    "translated": "C'est très désagréable."
+  },
+  {
+    "original": "Das ist gefährlich.",
+    "translated": "Ça craint!"
+  },
+  {
+    "original": "Das ist gefährlich.",
+    "translated": "C'est risqué"
+  },
+  {
+    "original": "Er ist eine Nervensäge.",
+    "translated": "Il est casse-pied."
+  },
+  {
+    "original": "Er ist eine Nervensäge.",
+    "translated": "Il est énervant."
+  },
+  {
+    "original": "Er ist in... verliebt",
+    "translated": "If flashe sur..."
+  },
+  {
+    "original": "Er ist in verliebt.",
+    "translated": "Il est amoureux de..."
+  },
+  {
+    "original": "Er macht ihr den Hof.; Er flirtet mit ihr.",
+    "translated": "Il la drague."
+  },
+  {
+    "original": "Er macht ihr den Hof.; Er flirtet mit ihr.",
+    "translated": "Il lui fait la cour"
+  },
+  {
+    "original": "Das ist mir egal.",
+    "translated": "Je m'en fous!"
+  },
+  {
+    "original": "Das ist mir egal.",
+    "translated": "Ça m'est égal."
+  },
+  {
+    "original": "Das ist erstaunlich!",
+    "translated": "J'hallucine!"
+  },
+  {
+    "original": "Das ist erstaunlich!",
+    "translated": "C'est étonnant!"
+  },
+  {
+    "original": "Das ist in Mode.; Das ist in\".",
+    "translated": "C'est branché"
+  },
+  {
+    "original": "der Nachmittag",
+    "translated": "l'aprèm"
+  },
+  {
+    "original": "praktischer als",
+    "translated": "plus pratique que"
+  },
+  {
+    "original": "genauso praktisch wie",
+    "translated": "aussi pratique que"
+  },
+  {
+    "original": "weniger",
+    "translated": "mains"
+  },
+  {
+    "original": "weniger praktisch als",
+    "translated": "moins pratique que"
+  },
+  {
+    "original": "berühmt",
+    "translated": "célébre/célèbre"
+  },
+  {
+    "original": "Schloss und Gemeinde an der Loire",
+    "translated": "Chambord"
+  },
+  {
+    "original": "das interessanteste",
+    "translated": "le plus intéressant"
+  },
+  {
+    "original": "ein König",
+    "translated": "un rol"
+  },
+  {
+    "original": "mit etwas vergleichen",
+    "translated": "comparer avec qc"
+  },
+  {
+    "original": "ein Aufbau; ein Bau",
+    "translated": "une construction"
+  },
+  {
+    "original": "Schloss und Gemeinde an der Loire",
+    "translated": "Chenonceaux"
+  },
+  {
+    "original": "Liebe auf den ersten Blick (wörtl. der Blitzschlag\")",
+    "translated": "le coup de foudre"
+  },
+  {
+    "original": "der beste Moment",
+    "translated": "le meilleur moment"
+  },
+  {
+    "original": "fahren",
+    "translated": "rouler"
+  },
+  {
+    "original": "ein Dach",
+    "translated": "un toit"
+  },
+  {
+    "original": "langweilig",
+    "translated": "ennuyeux/ennuyeuse"
+  },
+  {
+    "original": "Schlange stehen",
+    "translated": "faire la queue"
+  },
+  {
+    "original": "ein Meter",
+    "translated": "un mètre"
+  },
+  {
+    "original": "ein Sonnenbrand",
+    "translated": "un coup de soleil"
+  },
+  {
+    "original": "eine Kuh",
+    "translated": "une vache"
+  },
+  {
+    "original": "fies, gemein (ugs.)",
+    "translated": "vache (fam.)"
+  },
+  {
+    "original": "eine (Sitz-)Bank",
+    "translated": "un banc"
+  },
+  {
+    "original": "ein Schatten",
+    "translated": "une ombre"
+  },
+  {
+    "original": "eine Statue",
+    "translated": "une statue"
+  },
+  {
+    "original": "jdn./etw. bemerken",
+    "translated": "remarquer qn/qc"
+  },
+  {
+    "original": "im Geheimen",
+    "translated": "en secret"
+  },
+  {
+    "original": "so viel; dermaßen",
+    "translated": "tellement"
+  },
+  {
+    "original": "plötzlich; auf einmal",
+    "translated": "soudain"
+  },
+  {
+    "original": "rechtzeitig",
+    "translated": "à temps"
+  },
+  {
+    "original": "eine Dusche",
+    "translated": "une douche"
+  },
+  {
+    "original": "überrascht (aus-)rufen",
+    "translated": "s'écrier"
+  },
+  {
+    "original": "das Gegenteil (von)",
+    "translated": "le contraire (de)"
+  },
+  {
+    "original": "eine Steckdose",
+    "translated": "une prise d'électricité"
+  },
+  {
+    "original": "eine Batterie",
+    "translated": "une pile"
+  },
+  {
+    "original": "eine Dummheit",
+    "translated": "une bêtise"
+  },
+  {
+    "original": "Ich habe kaputt gemacht.",
+    "translated": "J'ai cassé le"
+  },
+  {
+    "original": "Das ist meine Schuld.",
+    "translated": "C'est de ma faute."
+  },
+  {
+    "original": "Ich habe mich in... geirrt.",
+    "translated": "Je me suis trompé de..."
+  },
+  {
+    "original": "das Geld; das Kleingeld",
+    "translated": "la monnaie"
+  },
+  {
+    "original": "(den Tisch) abräumen",
+    "translated": "débarrasser (la table)"
+  },
+  {
+    "original": "die Spülmaschine ausräumen",
+    "translated": "vider la lave-vaisselle"
+  },
+  {
+    "original": "gerne",
+    "translated": "volontiers (adv.)"
+  },
+  {
+    "original": "zu salzig",
+    "translated": "trop salé"
+  },
+  {
+    "original": "ein Omelett",
+    "translated": "une omelette"
+  },
+  {
+    "original": "den Akku aufladen",
+    "translated": "recharger la batterie"
+  },
+  {
+    "original": "einen Ausflug machen",
+    "translated": "faire une excursion"
+  },
+  {
+    "original": "eine Sehenswürdigkeit",
+    "translated": "une curiosité"
+  },
+  {
+    "original": "eine Burg",
+    "translated": "un château fort"
+  },
+  {
+    "original": "ein Wald",
+    "translated": "une forêt"
+  },
+  {
+    "original": "ein Berg ein Gebirge",
+    "translated": "une montagne"
+  },
+  {
+    "original": "die Straßenbahn",
+    "translated": "le tram"
+  },
+  {
+    "original": "ein Sportplatz",
+    "translated": "un terrain de sport"
+  },
+  {
+    "original": "ein Stadtzentrum.",
+    "translated": "un centre-ville"
+  },
+  {
+    "original": "eine Fußgängerzone",
+    "translated": "une zone piétanne"
+  },
+  {
+    "original": "eine Eisdiele",
+    "translated": "un glacier"
+  },
+  {
+    "original": "ein Jugendhaus",
+    "translated": "une maison des jeunes et de la culture (MJC)"
+  },
+  {
+    "original": "die Frankofonie",
+    "translated": "la francophonie"
+  },
+  {
+    "original": "Martinique",
+    "translated": "la Martinique"
+  },
+  {
+    "original": "eine Insel",
+    "translated": "une île"
+  },
+  {
+    "original": "gehören zu; ein Teil sein von",
+    "translated": "faire partie de qc"
+  },
+  {
+    "original": "die Antillen",
+    "translated": "les Antilles (f.) (pl.)"
+  },
+  {
+    "original": "französischsprachig",
+    "translated": "francophone/francophone"
+  },
+  {
+    "original": "eine Metropole (hier: Frankreich als Mutterland)",
+    "translated": "une métropole"
+  },
+  {
+    "original": "das Kreolische",
+    "translated": "le créole"
+  },
+  {
+    "original": "eine Muttersprache",
+    "translated": "une langue maternelle"
+  },
+  {
+    "original": "eine Zahl",
+    "translated": "un nombre"
+  },
+  {
+    "original": "ein Einwohner/eine Einwohnerin",
+    "translated": "un habitant/une habitante"
+  },
+  {
+    "original": "Quebec (Provinz im Osten Kanadas)",
+    "translated": "le Québec"
+  },
+  {
+    "original": "Marokko (Staat in Nordafrika)",
+    "translated": "le Maroc"
+  },
+  {
+    "original": "Burkina Faso (Staat in Westafrika)",
+    "translated": "le Burkina Faso"
+  },
+  {
+    "original": "Neukaledonien (Inselgruppe in Ozeanien)",
+    "translated": "la Nouvelle-Calédonie"
+  },
+  {
+    "original": "ein Kontinent",
+    "translated": "un continent"
+  },
+  {
+    "original": "ein Staat",
+    "translated": "un Etat"
+  },
+  {
+    "original": "vorhanden; anwesend",
+    "translated": "présent/présente"
+  },
+  {
+    "original": "Europa",
+    "translated": "l'Europe (f.)"
+  },
+  {
+    "original": "die Schweiz",
+    "translated": "la Suisse"
+  },
+  {
+    "original": "kanadisch",
+    "translated": "canadien/canadienne"
+  },
+  {
+    "original": "Algerien",
+    "translated": "l'Algérie (f.)"
+  },
+  {
+    "original": "Tunesien",
+    "translated": "la Tunisie"
+  },
+  {
+    "original": "das Arabische",
+    "translated": "l'arabe (m.)"
+  },
+  {
+    "original": "Schwarzafrika",
+    "translated": "l'Afrique noire (f.)"
+  },
+  {
+    "original": "Verwaltungs-; behördlich",
+    "translated": "administratif/administrative"
+  },
+  {
+    "original": "eine Rolle",
+    "translated": "un rôle"
+  },
+  {
+    "original": "im Laufe (einer Sache)",
+    "translated": "au cours de qc"
+  },
+  {
+    "original": "England",
+    "translated": "l'Angleterre (f.)"
+  },
+  {
+    "original": "Portugal",
+    "translated": "le Portugal"
+  },
+  {
+    "original": "europäisch",
+    "translated": "européen/européenne"
+  },
+  {
+    "original": "ein Gebiet; ein Territorium",
+    "translated": "un territoire"
+  },
+  {
+    "original": "eine Kolonie",
+    "translated": "une colonie"
+  },
+  {
+    "original": "ein Franzose/eine Französin",
+    "translated": "un Français/une Française"
+  },
+  {
+    "original": "reich",
+    "translated": "riche/riche"
+  },
+  {
+    "original": "der Reichtum",
+    "translated": "la richesse"
+  },
+  {
+    "original": "ein Jahrhundert",
+    "translated": "un siècle"
+  },
+  {
+    "original": "unabhängig",
+    "translated": "indépendant/indépendante"
+  },
+  {
+    "original": "die Überseedepartements; die Überseeregionen",
+    "translated": "les départements et régions d’outre-mer (m.) (pl.)"
+  },
+  {
+    "original": "verwaltungsmäßig; was die Verwaltung betrifft",
+    "translated": "administrativement"
+  },
+  {
+    "original": "aus Quebec",
+    "translated": "québécois/québécoise"
+  },
+  {
+    "original": "marokkanisch",
+    "translated": "marocain/marocaine"
+  },
+  {
+    "original": "englisch",
+    "translated": "anglais/anglaise"
+  },
+  {
+    "original": "ein Quebecer/eine Quebecerin",
+    "translated": "un Québécois/une Québécoise"
+  },
+  {
+    "original": "Montreal (größte Stadt in der Provinz Quebec)",
+    "translated": "Montréal"
+  },
+  {
+    "original": "etw. herausbringen",
+    "translated": "sortir qc"
+  },
+  {
+    "original": "dort; dorthin;",
+    "translated": "y"
+  },
+  {
+    "original": "eine Tournee",
+    "translated": "une tournée"
+  },
+  {
+    "original": "von dort",
+    "translated": "en"
+  },
+  {
+    "original": "etw. zurückbringen; etw. mitbringen (von einem anderen Ort)",
+    "translated": "rapporter qc"
+  },
+  {
+    "original": "Name eines Musikpreises in Quebec",
+    "translated": "Félix (m.)"
+  },
+  {
+    "original": "romantisch",
+    "translated": "romantique/romantique"
+  },
+  {
+    "original": "wohingegen; während; obwohl",
+    "translated": "alors que"
+  },
+  {
+    "original": "etw. zählen",
+    "translated": "compter qc"
+  },
+  {
+    "original": "eine Amtssprache",
+    "translated": "une langue officielle"
+  },
+  {
+    "original": "der Sankt-Lorenz-Strom (nach dem Mississippi und dem Missouri drittgrößter Strom in Nordamerika)",
+    "translated": "le Saint-Laurent"
+  },
+  {
+    "original": "ein See",
+    "translated": "un lac"
+  },
+  {
+    "original": "ein Tunnel",
+    "translated": "un tunnel"
+  },
+  {
+    "original": "dynamisch; hier: lebhaft",
+    "translated": "dynamique/dynamique"
+  },
+  {
+    "original": "Musikfestival in Montréal",
+    "translated": "les FrancoFolies (f.) de Montréal"
+  },
+  {
+    "original": "ein Konzert",
+    "translated": "un concert"
+  },
+  {
+    "original": "Zirkusunternehmen aus Montreal",
+    "translated": "le Cirque du Soleil"
+  },
+  {
+    "original": "ein Künstler/eine Künstlerin",
+    "translated": "un artiste/une artiste"
+  },
+  {
+    "original": "eindrucksvoll; beeindruckend",
+    "translated": "impressionnant/impressionnante"
+  },
+  {
+    "original": "ein Wald",
+    "translated": "une forêt"
+  },
+  {
+    "original": "eine Wanderung",
+    "translated": "une randonnée"
+  },
+  {
+    "original": "ein Wal",
+    "translated": "une baleine"
+  },
+  {
+    "original": "einen zusammenfassenden Überblick über etw. geben",
+    "translated": "faire le point sur qc"
+  },
+  {
+    "original": "ein Klima",
+    "translated": "un climat"
+  },
+  {
+    "original": "eine Kultur",
+    "translated": "une culture"
+  },
+  {
+    "original": "Stadt in Marokko",
+    "translated": "Marrakech"
+  },
+  {
+    "original": "botanischer Garten in Marrakesch",
+    "translated": "le jardin Majorelle"
+  },
+  {
+    "original": "eine Pflanze",
+    "translated": "une plante"
+  },
+  {
+    "original": "ganz; völlig;",
+    "translated": "entier/entière"
+  },
+  {
+    "original": "ein Souk (ein arabischer Markt)",
+    "translated": "un souk"
+  },
+  {
+    "original": "farbig; bunt",
+    "translated": "coloré/colorée"
+  },
+  {
+    "original": "Altstadt in nordafrikanischen Städten",
+    "translated": "une médina"
+  },
+  {
+    "original": "Hauptstadt von Marokko",
+    "translated": "Rabat"
+  },
+  {
+    "original": "Stadt in Marokko",
+    "translated": "Casablanca"
+  },
+  {
+    "original": "das Studium",
+    "translated": "les études (f.) (pl.)"
+  },
+  {
+    "original": "sterben",
+    "translated": "mourir"
+  },
+  {
+    "original": "leben",
+    "translated": "vivre"
+  },
+  {
+    "original": "weniger gut",
+    "translated": "moins bien"
+  },
+  {
+    "original": "das Abitur; die Matura",
+    "translated": "le baccalauréat"
+  },
+  {
+    "original": "seinen Lebensunterhalt verdienen",
+    "translated": "gagner sa vie"
+  },
+  {
+    "original": "eine Bibliothek; eine Bücherei",
+    "translated": "une bibliothèque"
+  },
+  {
+    "original": "das Mittelalter",
+    "translated": "le Moyen Age"
+  },
+  {
+    "original": "eine Epoche; eine Zeit;",
+    "translated": "une époque"
+  },
+  {
+    "original": "die Medizin",
+    "translated": "la médecine"
+  },
+  {
+    "original": "die Philosophie",
+    "translated": "la philosophie"
+  },
+  {
+    "original": "eine Übersetzung",
+    "translated": "une traduction"
+  },
+  {
+    "original": "ein Gelehrter/eine Gelehrte",
+    "translated": "un savant/une savante"
+  },
+  {
+    "original": "durch jdn./etw.",
+    "translated": "grâce à qn/qc"
+  },
+  {
+    "original": "eine Wissenschaft",
+    "translated": "une science"
+  },
+  {
+    "original": "ein Fortschritt",
+    "translated": "un progrès"
+  },
+  {
+    "original": "eine Wüste",
+    "translated": "un désert"
+  },
+  {
+    "original": "ein Plan; (hier) eine (Kamera-)Einstellung;",
+    "translated": "un plan"
+  },
+  {
+    "original": "der Hohe Atlas (Hochgebirge in Marokko)",
+    "translated": "le Haut-Atlas"
+  },
+  {
+    "original": "Hauptstadt von Burkina Faso",
+    "translated": "Ouagadougou"
+  },
+  {
+    "original": "Stadt in Burkina Faso",
+    "translated": "Houndé"
+  },
+  {
+    "original": "eine Hütte",
+    "translated": "une case"
+  },
+  {
+    "original": "ein Dorf",
+    "translated": "un village"
+  },
+  {
+    "original": "eine Wasserstelle; hier: eine Zapfstelle für Trinkwasser",
+    "translated": "un point d'eau"
+  },
+  {
+    "original": "ein Mangel",
+    "translated": "un manque"
+  },
+  {
+    "original": "etw. anbauen",
+    "translated": "cultiver qc"
+  },
+  {
+    "original": "die Baumwolle",
+    "translated": "le coton"
+  },
+  {
+    "original": "ein Produzent/eine Produzentin",
+    "translated": "un producteur/une productrice"
+  },
+  {
+    "original": "eine Grundschule",
+    "translated": "une école primaire"
+  },
+  {
+    "original": "eine Komödie",
+    "translated": "une comédie"
+  },
+  {
+    "original": "afrikanisches Filmfestival",
+    "translated": "le FESPACO (Festival panafricain du cinéma et de la télévision de Ouagadougou)"
+  },
+  {
+    "original": "ein Märchen",
+    "translated": "un conte"
+  },
+  {
+    "original": "eine Bande; eine Clique",
+    "translated": "une bande"
+  },
+  {
+    "original": "täglich",
+    "translated": "quotidien/quotidienne"
+  },
+  {
+    "original": "der Optimismus",
+    "translated": "l'optimisme (m.)"
+  },
+  {
+    "original": "etw. ersetzen",
+    "translated": "remplacer qc"
+  },
+  {
+    "original": "eine Grenze",
+    "translated": "une frontière"
+  },
+  {
+    "original": "ein Fluss",
+    "translated": "une rivière"
+  },
+  {
+    "original": "die Wirtschaft",
+    "translated": "l’économie (f.)"
+  },
+  {
+    "original": "größte Stadt der neukaledonischen Inselgruppe",
+    "translated": "Nouméa"
+  },
+  {
+    "original": "ein Archipel; eine Inselgruppe",
+    "translated": "un archipel"
+  },
+  {
+    "original": "selten",
+    "translated": "rare/rare"
+  },
+  {
+    "original": "ein (Theater-)Stück",
+    "translated": "une pièce (de théâtre)"
+  },
+  {
+    "original": "ein Zentrum; eine Mitte; ein Mittelpunkt",
+    "translated": "un centre"
+  },
+  {
+    "original": "bedeuten; heißen; meinen",
+    "translated": "vouloir dire"
+  },
+  {
+    "original": "frei",
+    "translated": "libre/libre"
+  },
+  {
+    "original": "wohingegen; während; dagegen",
+    "translated": "alors que"
+  },
+  {
+    "original": "westlich; abendländisch",
+    "translated": "occidental/occidentale/occidentaux/occidentales"
+  },
+  {
+    "original": "ein Individuum; eine einzelne Person",
+    "translated": "un individu"
+  },
+  {
+    "original": "eine Nutzung; ein Abbau",
+    "translated": "une exploitation"
+  },
+  {
+    "original": "das Nickel (Metall)",
+    "translated": "le nickel"
+  },
+  {
+    "original": "etw. verschmutzen",
+    "translated": "polluer qc"
+  },
+  {
+    "original": "etw. formen; etw. bilden",
+    "translated": "former qc"
+  },
+  {
+    "original": "ein Fluss der in einen See oder Fluss mündet",
+    "translated": "une rivière"
+  },
+  {
+    "original": "die Literatur",
+    "translated": "la littérature"
+  },
+  {
+    "original": "die Verwaltung",
+    "translated": "l’administration (f.)"
+  },
+  {
+    "original": "Produzent von … sein",
+    "translated": "être producteur de …"
+  },
+  {
+    "original": "der Abbau von (Nickel)",
+    "translated": "l’exploitation de (f.) (nickel)"
+  },
+  {
+    "original": "Asien",
+    "translated": "l’Asie (f.)"
+  },
+  {
+    "original": "asiatisch",
+    "translated": "asiatique"
+  },
+  {
+    "original": "Nordamerika",
+    "translated": "l’Amérique du Nord (f.)"
+  },
+  {
+    "original": "nordamerikanisch",
+    "translated": "nord-américan/nord-américaine"
+  },
+  {
+    "original": "Südamerika",
+    "translated": "l’Amérique du Sud (f.)"
+  },
+  {
+    "original": "südamerikanisch",
+    "translated": "sud-américain/sud-américaine"
+  },
+  {
+    "original": "australisch",
+    "translated": "australien/australienne"
+  },
+  {
+    "original": "Ozeanien",
+    "translated": "l’Océanie (f.)"
+  },
+  {
+    "original": "ozeanisch",
+    "translated": "océanien/océanienne"
+  },
+  {
+    "original": "Österreich",
+    "translated": "l’Autriche (f.)"
+  },
+  {
+    "original": "österreichisch",
+    "translated": "autrichien/autrichienne"
+  },
+  {
+    "original": "China",
+    "translated": "la Chine"
+  },
+  {
+    "original": "chinesisch",
+    "translated": "chinois/chinoise"
+  },
+  {
+    "original": "(aus/von) der Elfenbeinküste",
+    "translated": "ivoirien/ivoirienne"
+  },
+  {
+    "original": "Spanien",
+    "translated": "l’Espagne (f.)"
+  },
+  {
+    "original": "spanisch",
+    "translated": "espagnol/espagnole"
+  },
+  {
+    "original": "die USA",
+    "translated": "les Etats-Unis (m.) (pl.)"
+  },
+  {
+    "original": "amerikanisch",
+    "translated": "américain/américaine"
+  },
+  {
+    "original": "Großbritannien",
+    "translated": "la Grande-Bretagne"
+  },
+  {
+    "original": "britisch",
+    "translated": "britannique"
+  },
+  {
+    "original": "Griechenland",
+    "translated": "la Grèce"
+  },
+  {
+    "original": "griechisch",
+    "translated": "grec/grecque"
+  },
+  {
+    "original": "Ungarn",
+    "translated": "la Hongrie"
+  },
+  {
+    "original": "ungarisch",
+    "translated": "hongrois/hongroise"
+  },
+  {
+    "original": "Irland",
+    "translated": "l’Irlande (f.)"
+  },
+  {
+    "original": "irisch",
+    "translated": "irlandais/irlandaise"
+  },
+  {
+    "original": "Japan",
+    "translated": "le Japon"
+  },
+  {
+    "original": "japanisch",
+    "translated": "japonais/japonaise"
+  },
+  {
+    "original": "die Niederlande",
+    "translated": "les Pays-Bas (m.) (pl.)"
+  },
+  {
+    "original": "niederländisch",
+    "translated": "néerlandais/néerlandaise"
+  },
+  {
+    "original": "holländisch",
+    "translated": "hollandais/hollandaise"
+  },
+  {
+    "original": "Polen",
+    "translated": "la Pologne"
+  },
+  {
+    "original": "polnisch",
+    "translated": "polonais/polonaise"
+  },
+  {
+    "original": "Rumänien",
+    "translated": "la Roumanie"
+  },
+  {
+    "original": "rumänisch",
+    "translated": "roumain/roumaine"
+  },
+  {
+    "original": "Russland",
+    "translated": "la Russie"
+  },
+  {
+    "original": "russisch",
+    "translated": "russe/russe"
+  },
+  {
+    "original": "Schweden",
+    "translated": "la Suède"
+  },
+  {
+    "original": "schwedisch",
+    "translated": "suédois/suédoise"
+  },
+  {
+    "original": "die Türkei",
+    "translated": "la Turquie"
+  },
+  {
+    "original": "türkisch",
+    "translated": "turc/turque"
+  },
+  {
+    "original": "Australien",
+    "translated": "l’Australie (f.)"
+  },
+  {
+    "original": "ein Paradies",
+    "translated": "un paradis"
+  },
+  {
+    "original": "das MuCEM (Museum in Marseille)",
+    "translated": "le MuCEM (le Musée des Civilisations de l’Europe et la Méditerranée)"
+  },
+  {
+    "original": "ein Leser/eine Leserin",
+    "translated": "un lecteur/une lectrice"
+  },
+  {
+    "original": "das Talent; die Begabung",
+    "translated": "le talent"
+  },
+  {
+    "original": "ein Sechseck",
+    "translated": "un hexagone"
+  },
+  {
+    "original": "Übersee-",
+    "translated": "outre-mer"
+  },
+  {
+    "original": "die Jury",
+    "translated": "le jury"
+  },
+  {
+    "original": "eine Wahl",
+    "translated": "un choix"
+  },
+  {
+    "original": "ein Gewinner/eine Gewinnerin",
+    "translated": "un gagnant/une gagnante"
+  },
+  {
+    "original": "ein Fotoapparat",
+    "translated": "un appareil photo"
+  },
+  {
+    "original": "digital",
+    "translated": "numérique/numérique"
+  },
+  {
+    "original": "eine Zeitschrift",
+    "translated": "une revue"
+  },
+  {
+    "original": "Titel einer Zeitschrift für Jugendliche",
+    "translated": "Géo Ado"
+  },
+  {
+    "original": "eine Gemeinde; eine Kommune",
+    "translated": "une commune"
+  },
+  {
+    "original": "eine Fabrik",
+    "translated": "une usine"
+  },
+  {
+    "original": "französischer Reifenhersteller mit Sitz in Clermont-Ferrand",
+    "translated": "Michelin"
+  },
+  {
+    "original": "ein Reifen",
+    "translated": "un pneu"
+  },
+  {
+    "original": "eine Produktion",
+    "translated": "une production"
+  },
+  {
+    "original": "das Zentralmassiv (Gebirge in Zentralfrankreich)",
+    "translated": "le Massif central"
+  },
+  {
+    "original": "Berg im Zentralmassiv",
+    "translated": "le puy de Dôme"
+  },
+  {
+    "original": "sich bilden; entstehen",
+    "translated": "se former"
+  },
+  {
+    "original": "ein Krater",
+    "translated": "un cratère"
+  },
+  {
+    "original": "die Erde",
+    "translated": "la terre"
+  },
+  {
+    "original": "ein (Bade-)Kurort",
+    "translated": "une station thermale"
+  },
+  {
+    "original": "größte Stadt in der Auvergne",
+    "translated": "Clermont-Ferrand"
+  },
+  {
+    "original": "ein Besucher/eine Besucherin",
+    "translated": "un visiteur/une visiteuse"
+  },
+  {
+    "original": "ein Ort/Orte",
+    "translated": "un lieu/des lieux"
+  },
+  {
+    "original": "ein Aufbau; Bauen",
+    "translated": "une construction"
+  },
+  {
+    "original": "ein Fels; ein Felsen",
+    "translated": "un rocher"
+  },
+  {
+    "original": "eine Bucht",
+    "translated": "une baie"
+  },
+  {
+    "original": "eine Abtei",
+    "translated": "une abbaye"
+  },
+  {
+    "original": "spazieren gehen",
+    "translated": "se promener"
+  },
+  {
+    "original": "oder aber",
+    "translated": "ou bien"
+  },
+  {
+    "original": "touristisch",
+    "translated": "touristique/touristique"
+  },
+  {
+    "original": "viel/viele; jede Menge",
+    "translated": "plein de …"
+  },
+  {
+    "original": "der Kitsch",
+    "translated": "le kitsch"
+  },
+  {
+    "original": "hier: ein Keks",
+    "translated": "une galette"
+  },
+  {
+    "original": "die Gezeiten (Pl.)",
+    "translated": "la marée"
+  },
+  {
+    "original": "die Ebbe",
+    "translated": "la marée basse"
+  },
+  {
+    "original": "die Flut",
+    "translated": "la marée haute"
+  },
+  {
+    "original": "ein Schild; ein Hinweisschild",
+    "translated": "un panneau"
+  },
+  {
+    "original": "wen …?",
+    "translated": "qui est-ce que …?"
+  },
+  {
+    "original": "unvorsichtig",
+    "translated": "imprudent/imprudente"
+  },
+  {
+    "original": "eine Muschel",
+    "translated": "un coquillage"
+  },
+  {
+    "original": "etw. aufheben; etw. einsammeln",
+    "translated": "ramasser qc"
+  },
+  {
+    "original": "das Mittelmeer",
+    "translated": "la Méditerranée"
+  },
+  {
+    "original": "ein Kult",
+    "translated": "un culte"
+  },
+  {
+    "original": "existieren; geben;",
+    "translated": "exister"
+  },
+  {
+    "original": "Jesus Christus",
+    "translated": "Jésus-Christ"
+  },
+  {
+    "original": "ein Hafen",
+    "translated": "un port"
+  },
+  {
+    "original": "multikulturell",
+    "translated": "multiculturel/multiculturelle"
+  },
+  {
+    "original": "absolut; unbedingt (Adv.)",
+    "translated": "absolument adv."
+  },
+  {
+    "original": "Prachtstraße in Marseille",
+    "translated": "la Canebière"
+  },
+  {
+    "original": "1 km lang",
+    "translated": "long de/longue de 1 km"
+  },
+  {
+    "original": "Festung auf einer kleinen Insel vor Marseille",
+    "translated": "le château d'If"
+  },
+  {
+    "original": "eine Höhle",
+    "translated": "une grotte"
+  },
+  {
+    "original": "Höhle in der Nähe von Marseille",
+    "translated": "la grotte Cosquer"
+  },
+  {
+    "original": "die Malerei; hier: die Felszeichnung;",
+    "translated": "la peinture"
+  },
+  {
+    "original": "sich für etw. einsetzen",
+    "translated": "s’engager pour qc"
+  },
+  {
+    "original": "zugunsten von",
+    "translated": "au profit de"
+  },
+  {
+    "original": "ein Verein; ein Zusammenschluss",
+    "translated": "une association"
+  },
+  {
+    "original": "benachteiligt",
+    "translated": "défavorisé/défavorisée"
+  },
+  {
+    "original": "medienwirksam; Medien-",
+    "translated": "médiatique/médiatique"
+  },
+  {
+    "original": "jdn. mobilisieren (jdn. dazu bewegen sich einzusetzen)",
+    "translated": "mobiliser qn"
+  },
+  {
+    "original": "ein Fernsehsender",
+    "translated": "une chaîne de télévision"
+  },
+  {
+    "original": "national; staatlich; hier: landesweit",
+    "translated": "national/nationale"
+  },
+  {
+    "original": "öffentlich",
+    "translated": "public/publique"
+  },
+  {
+    "original": "privat",
+    "translated": "privé/privée"
+  },
+  {
+    "original": "deutsch-französisch",
+    "translated": "franco-allemand/franco-allemande"
+  },
+  {
+    "original": "eine Fernsehsendung",
+    "translated": "une émission"
+  },
+  {
+    "original": "Kultur-",
+    "translated": "culturel/culturelle"
+  },
+  {
+    "original": "das Tagesgeschehen",
+    "translated": "l'actualité (f.)"
+  },
+  {
+    "original": "die Presse",
+    "translated": "la presse"
+  },
+  {
+    "original": "eine Tageszeitung",
+    "translated": "un quotidien"
+  },
+  {
+    "original": "eine Zeitschrift",
+    "translated": "un magazine"
+  },
+  {
+    "original": "sich mit etw. befassen; etw. behandeln",
+    "translated": "traiter de qc"
+  },
+  {
+    "original": "die Gesellschaft",
+    "translated": "la société"
+  },
+  {
+    "original": "sich an jdn. richten; sich an jdn. wenden",
+    "translated": "s'adresser à qn"
+  },
+  {
+    "original": "ein Humorist/eine Humoristin; ein Komiker/eine Komikerin",
+    "translated": "un humoriste/une humoriste"
+  },
+  {
+    "original": "unvergesslich",
+    "translated": "inoubliable/inoubliable"
+  },
+  {
+    "original": "das Milieu; das Umfeld",
+    "translated": "le milieu"
+  },
+  {
+    "original": "der Humor",
+    "translated": "l'humour (m.)"
+  },
+  {
+    "original": "unter anderem",
+    "translated": "entre autres"
+  },
+  {
+    "original": "etw. brauchen",
+    "translated": "avoir besoin de qc"
+  },
+  {
+    "original": "da; weil",
+    "translated": "comme"
+  },
+  {
+    "original": "unmöglich",
+    "translated": "impossible/impossible"
+  },
+  {
+    "original": "unerwartet",
+    "translated": "inattendu/inattendue"
+  },
+  {
+    "original": "das Publikum; die Öffentlichkeit",
+    "translated": "le public"
+  },
+  {
+    "original": "auswendig",
+    "translated": "par cœur"
+  },
+  {
+    "original": "um die fünfzig",
+    "translated": "une cinquantaine de"
+  },
+  {
+    "original": "ehrenamtlich; unentgeltlich",
+    "translated": "bénévole/bénévole"
+  },
+  {
+    "original": "eine Szene; hier: eine Bühne",
+    "translated": "une scène"
+  },
+  {
+    "original": "eine Verabredung; ein Treffen",
+    "translated": "un rendez-vous"
+  },
+  {
+    "original": "ein Zuschauer/eine Zuschauerin",
+    "translated": "un spectateur/une spectatrice"
+  },
+  {
+    "original": "eine Verbreitung; eine Ausstrahlung",
+    "translated": "une diffusion"
+  },
+  {
+    "original": "ein Unfall",
+    "translated": "un accident"
+  },
+  {
+    "original": "ein Engagement; ein Einsatz",
+    "translated": "un engagement"
+  },
+  {
+    "original": "eine Hilfe; eine Unterstützung",
+    "translated": "une aide"
+  },
+  {
+    "original": "gleich",
+    "translated": "égal/égale/égaux/égales"
+  },
+  {
+    "original": "eine Diskriminierung; eine ungerechte Behandlung",
+    "translated": "une discrimination"
+  },
+  {
+    "original": "sich über etw. empören",
+    "translated": "s'indigner de qc"
+  },
+  {
+    "original": "ein Diplomat/eine Diplomatin",
+    "translated": "un diplomate/une diplomate"
+  },
+  {
+    "original": "ein Schriftsteller/eine Schriftstellerin",
+    "translated": "un écrivain/une femme écrivain"
+  },
+  {
+    "original": "ein Thema",
+    "translated": "un thème"
+  },
+  {
+    "original": "etw. rechtfertigen; etw. begründen",
+    "translated": "justifier qc"
+  },
+  {
+    "original": "eine Empörung",
+    "translated": "une indignation"
+  },
+  {
+    "original": "eine Behandlung",
+    "translated": "un traitement"
+  },
+  {
+    "original": "ein Einwanderer/eine Einwanderin",
+    "translated": "un immigré/une immigrée"
+  },
+  {
+    "original": "eine Person ohne Papiere; ein Illegaler",
+    "translated": "un/une sans-papiers"
+  },
+  {
+    "original": "die Drogensucht",
+    "translated": "la toxicomanie"
+  },
+  {
+    "original": "die Abhängigkeit",
+    "translated": "la dépendance"
+  },
+  {
+    "original": "die Ungerechtigkeit",
+    "translated": "l’injustice (f.)"
+  },
+  {
+    "original": "der Rassismus",
+    "translated": "le racisme"
+  },
+  {
+    "original": "die Gewalt",
+    "translated": "la violence"
+  },
+  {
+    "original": "das Mobbing",
+    "translated": "le harcèlement moral"
+  },
+  {
+    "original": "jdn. verlassen",
+    "translated": "abandonner qn"
+  },
+  {
+    "original": "verlassen sein",
+    "translated": "être abandonné(e)"
+  },
+  {
+    "original": "die Einsamkeit",
+    "translated": "la solitude"
+  },
+  {
+    "original": "behindert sein",
+    "translated": "être handicapé(e)"
+  },
+  {
+    "original": "obdachlos sein",
+    "translated": "être sans domicile fixe (être SDF)"
+  },
+  {
+    "original": "die Gleichgültigkeit",
+    "translated": "l’indifférence (f.)"
+  },
+  {
+    "original": "gleichgültig sein",
+    "translated": "être indifférent(e)"
+  },
+  {
+    "original": "der Respekt",
+    "translated": "le respect"
+  },
+  {
+    "original": "jdn./etw. adoptieren",
+    "translated": "adopter qn/qc"
+  },
+  {
+    "original": "die Initiative ergreifen",
+    "translated": "prendre l’initiative (f.) de faire qc"
+  },
+  {
+    "original": "einen Aufruf an jdn. richten",
+    "translated": "lancer un appel à qn"
+  },
+  {
+    "original": "Geld sammeln",
+    "translated": "collecter de l’argent"
+  },
+  {
+    "original": "hier: eine Zauberformel",
+    "translated": "un sésame"
+  },
+  {
+    "original": "eine Beobachtung",
+    "translated": "une observation"
+  },
+  {
+    "original": "Pflicht-; obligatorisch",
+    "translated": "obligatoire/obligatoire"
+  },
+  {
+    "original": "dauern",
+    "translated": "durer"
+  },
+  {
+    "original": "im Ausland",
+    "translated": "à l’étranger"
+  },
+  {
+    "original": "ein Berater (für die berufliche Bildung)",
+    "translated": "un conseiller (d’orientation)"
+  },
+  {
+    "original": "ein Bericht",
+    "translated": "un rapport"
+  },
+  {
+    "original": "ein Verlag",
+    "translated": "une maison d’édition"
+  },
+  {
+    "original": "eine Bewerbung",
+    "translated": "une candidature"
+  },
+  {
+    "original": "ein Bewerbungsschreiben",
+    "translated": "une lettre de candidature"
+  },
+  {
+    "original": "etw. zusammenfügen; hier: etw. beifügen",
+    "translated": "joindre qc"
+  },
+  {
+    "original": "ein Lebenslauf",
+    "translated": "un CV"
+  },
+  {
+    "original": "die Biologie",
+    "translated": "la biologie"
+  },
+  {
+    "original": "beruflich; Berufs-",
+    "translated": "professionnel/professionnelle"
+  },
+  {
+    "original": "etw. erreichen",
+    "translated": "atteindre qc"
+  },
+  {
+    "original": "ein Ziel",
+    "translated": "un objectif"
+  },
+  {
+    "original": "eine Wahl; eine Auswahl",
+    "translated": "un choix"
+  },
+  {
+    "original": "eine Umfrage",
+    "translated": "un sondage"
+  },
+  {
+    "original": "das Babysitting",
+    "translated": "le baby-sitting"
+  },
+  {
+    "original": "etw. verteilen",
+    "translated": "distribuer qc"
+  },
+  {
+    "original": "Fastfood",
+    "translated": "le fastfood"
+  },
+  {
+    "original": "die Weinlese",
+    "translated": "les vendanges (f.)"
+  },
+  {
+    "original": "die Verantwortung",
+    "translated": "la responsabilité"
+  },
+  {
+    "original": "kompetent; fähig",
+    "translated": "compétent/compétente"
+  },
+  {
+    "original": "sich beschweren; sich beklagen",
+    "translated": "se plaindre"
+  },
+  {
+    "original": "etw. (be)fürchten",
+    "translated": "craindre qc"
+  },
+  {
+    "original": "ein Baby; ein Säugling",
+    "translated": "un bébé"
+  },
+  {
+    "original": "zu Bett gehen; sich hinlegen",
+    "translated": "se coucher"
+  },
+  {
+    "original": "eine Art",
+    "translated": "un genre"
+  },
+  {
+    "original": "etw. erklären; etw. ankündigen",
+    "translated": "déclarer qc"
+  },
+  {
+    "original": "etw. ausschalten",
+    "translated": "éteindre qc"
+  },
+  {
+    "original": "das Licht",
+    "translated": "la lumière"
+  },
+  {
+    "original": "jdm. etw. versprechen",
+    "translated": "promettre qc à qn"
+  },
+  {
+    "original": "etw. anschalten; etw. anzünden",
+    "translated": "allumer qc"
+  },
+  {
+    "original": "weinen",
+    "translated": "pleurer"
+  },
+  {
+    "original": "wühlen; suchen",
+    "translated": "fouiller"
+  },
+  {
+    "original": "ein Schrank; ein Wandschrank",
+    "translated": "un placard"
+  },
+  {
+    "original": "etw. nutzen",
+    "translated": "profiter de qc"
+  },
+  {
+    "original": "jdn. auf die Welt bringen; jdn. in die Welt setzen",
+    "translated": "mettre qn au monde"
+  },
+  {
+    "original": "unerträglich",
+    "translated": "insupportable/insupportable"
+  },
+  {
+    "original": "herbeilaufen",
+    "translated": "accourir"
+  },
+  {
+    "original": "ein Prinzip; ein Grundsatz",
+    "translated": "un principe"
+  },
+  {
+    "original": "etw. anwenden",
+    "translated": "appliquer qc"
+  },
+  {
+    "original": "ein Krieg",
+    "translated": "une guerre"
+  },
+  {
+    "original": "die Vernunft",
+    "translated": "la raison"
+  },
+  {
+    "original": "die Nase",
+    "translated": "le nez"
+  },
+  {
+    "original": "sich an etw. erinnern",
+    "translated": "se rappeler qc"
+  },
+  {
+    "original": "jdn. schlagen",
+    "translated": "battre qn"
+  },
+  {
+    "original": "etw. benutzen; sich einer Sache bedienen",
+    "translated": "se servir de qc"
+  },
+  {
+    "original": "jdm. danken",
+    "translated": "remercier qn"
+  },
+  {
+    "original": "ein Sprichwort",
+    "translated": "un proverbe"
+  },
+  {
+    "original": "ein Hammer",
+    "translated": "un marteau"
+  },
+  {
+    "original": "ein Präsident/eine Präsidentin",
+    "translated": "un président/une présidente"
+  },
+  {
+    "original": "etw. bauen; etw. errichten",
+    "translated": "bâtir qc"
+  },
+  {
+    "original": "ein Palast",
+    "translated": "un palais"
+  },
+  {
+    "original": "originell; besonders; eigenartig",
+    "translated": "original/originale/originaux/originales"
+  },
+  {
+    "original": "absurd; unsinnig",
+    "translated": "absurde/absurde"
+  },
+  {
+    "original": "ein Fußballspieler/eine Fußballspielerin",
+    "translated": "un footballeur/une footballeuse"
+  },
+  {
+    "original": "eine Karriere; eine Laufbahn",
+    "translated": "une carrière"
+  },
+  {
+    "original": "ein Topmodel",
+    "translated": "un top modèle"
+  },
+  {
+    "original": "eine Danksagung",
+    "translated": "un remerciement"
+  },
+  {
+    "original": "sehr (viel)",
+    "translated": "énormément"
+  },
+  {
+    "original": "ein Grafiker/eine Grafikerin",
+    "translated": "un graphiste/une graphiste"
+  },
+  {
+    "original": "ein Schöpfer/eine Schöpferin; ein Hersteller/eine Herstellerin",
+    "translated": "un créateur/une créatrice"
+  },
+  {
+    "original": "etw. realisieren; etw. ausführen",
+    "translated": "réaliser qc"
+  },
+  {
+    "original": "ein Dokument",
+    "translated": "un document"
+  },
+  {
+    "original": "digital",
+    "translated": "numérique/numérique"
+  },
+  {
+    "original": "eine Software; ein Computerprogramm;",
+    "translated": "un logiciel"
+  },
+  {
+    "original": "ein Entwickler/eine Entwicklerin (von Software)",
+    "translated": "un développeur/une développeuse"
+  },
+  {
+    "original": "ein Pflichtenheft",
+    "translated": "un cahier des charges"
+  },
+  {
+    "original": "ein Bedarf",
+    "translated": "un besoin"
+  },
+  {
+    "original": "ein Nutzer/eine Nutzerin",
+    "translated": "un utilisateur/une utilisatrice"
+  },
+  {
+    "original": "technisch",
+    "translated": "technique/technique"
+  },
+  {
+    "original": "etw. anpassen; etw. adaptieren",
+    "translated": "adapter qc"
+  },
+  {
+    "original": "spezifisch",
+    "translated": "spécifique/spécifique"
+  },
+  {
+    "original": "etw. schaffen; etw. erschaffen; etw. herstellen",
+    "translated": "créer qc"
+  },
+  {
+    "original": "geleitet von",
+    "translated": "dirigé(e) par"
+  },
+  {
+    "original": "ein Angestellter/eine Angestellte",
+    "translated": "un employé/une employée"
+  },
+  {
+    "original": "ein Mentor/eine Mentorin",
+    "translated": "un tuteur/une tutrice"
+  },
+  {
+    "original": "eine Geschäftsführung",
+    "translated": "une gestion"
+  },
+  {
+    "original": "jdn. empfangen; jdn. aufnehmen",
+    "translated": "accueillir qn"
+  },
+  {
+    "original": "herzlich",
+    "translated": "chaleureusement"
+  },
+  {
+    "original": "etw. testen",
+    "translated": "tester qc"
+  },
+  {
+    "original": "ein Logo; ein Markenzeichen",
+    "translated": "un logo"
+  },
+  {
+    "original": "kompliziert",
+    "translated": "compliqué/compliquée"
+  },
+  {
+    "original": "etw. verstärken",
+    "translated": "renforcer qc"
+  },
+  {
+    "original": "ein Wunsch",
+    "translated": "un désir"
+  },
+  {
+    "original": "ein Bäcker/eine Bäckerin",
+    "translated": "un boulanger/une boulangère"
+  },
+  {
+    "original": "eine Universität",
+    "translated": "une université"
+  },
+  {
+    "original": "ein Zweig; ein Erwerbszweig; eine Branche",
+    "translated": "une branche"
+  },
+  {
+    "original": "jdn. über etw. auf dem Laufenden halten; jdm. Bescheid geben",
+    "translated": "tenir qn au courant de qc"
   }
 ]
